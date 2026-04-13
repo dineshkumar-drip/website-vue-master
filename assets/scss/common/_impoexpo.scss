@@ -1,0 +1,65 @@
+.impo-expo {
+  font-family: $global-font;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    font-family: $global-font;
+    font-weight: bold;
+  }
+  .btn {
+    padding: 0.5rem 2.3rem;
+  }
+  .header {
+    a {
+      span {
+        color: $dark-blue;
+      }
+    }
+  }
+  .btn-cta {
+    font-size: 16px;
+    padding: 0.5em 1.3em !important;
+  }
+  .dropdown-menu {
+    background-color: $bg-light-gray;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border: 0;
+    left: -0.5rem;
+    .dropdown-item {
+      color: $dark-blue;
+      font-family: $global-font;
+      padding-left: 1rem;
+    }
+  }
+  .main-navbar {
+    .dropdown-item {
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      background-color: $bg-light-gray;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+    a {
+      text-transform: none !important;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .header {
+      a {
+        span {
+          color: white;
+        }
+      }
+    }
+  }
+}

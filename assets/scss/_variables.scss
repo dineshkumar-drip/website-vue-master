@@ -1,0 +1,135 @@
+$xl-laptop: 2000px;
+$large-laptop: 1440px;
+$laptop: 1280px;
+$large-laptop: 1024px;
+$tablet: 780px;
+$mobile: 360px;
+
+$primary: #27b67c;
+$primary-light: #73c69c;
+$primary-dark: #1e8351;
+$secondary: #322d59;
+$secondary-light: #5f588b;
+$light-blue: #86a5d6;
+$dark-blue: #0a2e57;
+$dark-off-white: #e2e2e2;
+
+$white: #ffffff;
+
+$product-light-grey: #5b5b5b;
+$product-shadow: #e0e0e0;
+$product-light-blue-background: #edf5fc;
+$product-blue-background: #7ea6d9;
+$product-nav-background: #e1e7ed;
+$product-jumbotron: #ecf5fd;
+
+$linkedin: #0077b5;
+
+$navbar-dark-color: #fff;
+$bg-dark-gray: #5f5f5c;
+$bg-light-gray: #f3f3f3;
+
+$light-background: #f2f2f2;
+$off-white: #f4fafe;
+
+$orange: #f47a5c;
+$light-orange: #f5f4f2;
+
+$border-color: #d2d2d2;
+
+$transition-blog: all 0.2s;
+
+$headings-font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+
+$blog-font-serif: 'Spectral', serif;
+
+$investor-font-family: 'Raleway', 'sans-serif';
+$investor-poppins: 'Poppins', 'sans-serif';
+$investor-green: #1eb476;
+$investor-black: #1c1c1c;
+$investor-grey: #f7f7f7;
+
+$buyer-finance: #e8e8f4;
+
+// New Fonts and designs
+
+$global-font: 'Nunito Sans', sans-serif;
+$paragraph: #2b2b2b;
+
+$leadership-grey: #f9f9f9;
+$leadership-dark-grey: #c4c4c4;
+
+$light-gray: #bbbbbb;
+
+$wealthy-green-50: #e7f8f2;
+$wealthy-green-100: #cff5e6;
+$wealthy-green-500: #26b67f;
+$wealthy-green-600: #1e9263;
+$noble-blue: #0a2e57;
+$noble-blue-50: #dae9fb;
+$noble-blue-300: #217de5;
+$noble-blue-400: #1355a1;
+$noble-blue-500: #0a2e57;
+$sky-blue-50: #ecf5fb;
+$sky-blue-100: #daecf7;
+$sky-blue-300: #8fc5e8;
+$sky-blue-400: #6ab1e1;
+$sky-blue-500: #459ed9;
+$sky-blue-600: #2782be;
+$black: #000000;
+$grey: #f4f6f7;
+$mustard-yellow-50: #fef7ec;
+$mustard-yellow-100: #fcf0d8;
+$mustard-yellow-400: #f5c164;
+$mustard-yellow-500: #f2b23d;
+$spring-green-50: #e7fcf2;
+$spring-green-100: #d0fae6;
+$spring-green-400: #42ea9a;
+$spring-green-600: #14b266;
+$spring-green-800: #1e8c5f;
+$spring-green-900: #209767;
+$neutral-gray-100: #eaedf0;
+$neutral-gray-200: #d5dae1;
+$neutral-gray-500: #95a3b3;
+$orange-50: #faefec;
+$orange-100: #f5e0d9;
+$orange-400: #d68266;
+$orange-500: #cc6340;
+$orange-600: #a94c2d;
+$background-light: #d9d9d9;
+$disabled-grey: #6f8298;
+$red-400: #de4a39;
+
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+$spacers: (
+  0: 0,
+  1: (
+    $spacer * 0.25
+  ),
+  2: (
+    $spacer * 0.5
+  ),
+  3: $spacer,
+  4: (
+    $spacer * 1.5
+  ),
+  5: (
+    $spacer * 3
+  ),
+  8: (
+    $spacer * 4
+  ),
+  9: (
+    $spacer * 6
+  ),
+  10: (
+    $spacer * 10
+  )
+);
+
+.color-noble-blue-500 {
+  color: $noble-blue-500 !important;
+}

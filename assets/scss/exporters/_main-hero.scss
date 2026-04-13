@@ -1,0 +1,50 @@
+.exporters-page-container {
+  .main-hero {
+    .vue-typer-caret-blink {
+      display: none;
+    }
+
+    padding: 4rem 0 0;
+    background-color: $white;
+    margin-top: 10em;
+
+    .video-container {
+      box-shadow: 0 0 0.56em 1px $gray-700;
+    }
+
+    .display-3 {
+      font-size: 44px;
+      color: $secondary;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .exporters-page-container {
+    .main-hero {
+      .video-container {
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .exporters-page-container {
+    .main-hero {
+      .display-3 {
+        font-size: 36px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(xs) {
+  .exporters-page-container {
+    .main-hero {
+      .display-3 {
+        font-size: 28px;
+      }
+    }
+  }
+}

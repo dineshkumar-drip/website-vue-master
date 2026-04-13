@@ -1,0 +1,44 @@
+.section-conclusion {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  // background: $gray-100;
+
+  .btn-ghost-secondary {
+    margin-top: 24px;
+    margin-bottom: 36px;
+  }
+
+  .card-title {
+    margin-bottom: 30px;
+  }
+}
+
+.card-cta {
+  margin-top: 50px;
+  padding: 30px 20px;
+  .card-title {
+    margin-bottom: 30px;
+  }
+  .material-label {
+    margin-bottom: 32px;
+    .invalid-feedback {
+      position: absolute;
+    }
+  }
+}
+.card-box {
+  .invalid-feedback {
+    position: absolute;
+  }
+}
+
+.below-disclaimer {
+  color: #888;
+  font-size: 0.6em;
+  padding-top: 8px;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  background-image: none !important;
+}

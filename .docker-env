@@ -1,0 +1,16 @@
+HOST=0.0.0.0
+NODE_ENV=staging
+DRIP_API_HOST=https://api.staging.dripcapital.com:8080
+DRIP_PORTAL_HOST=http://localhost:8080
+DRIP_WEB_HOST=http://localhost:5000
+PORTAL_GA_CODE=asdfasdf
+PORTAL_MIXPANEL_TOKEN=sdfdf
+PORTAL_GTM=GTM='asdf'
+PORTAL_GTM_AUTH='adf'
+PORTAL_GTM_ENV='adf'
+CTF_SPACE_ID='adf'
+CTF_TOKEN='adf'
+CTF_SPACE_ID_MX='adf'
+CTF_TOKEN_MX='adf'
+CTF_CMA_TOKEN='adf'
+PORT=8080

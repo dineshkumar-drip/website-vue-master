@@ -1,0 +1,38 @@
+.section-stats {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.stat-title {
+  font-size: 24px;
+}
+
+.stat-number {
+  line-height: 1.1;
+}
+
+.form-disclaimer {
+  margin-top: 5px;
+  margin-bottom: 0;
+  border: 1px solid #585858;
+  color: #eee;
+  padding: 5px 8px;
+  font-size: 0.85em;
+
+  .list-inline-item:not(:first-child) {
+    position: relative;
+    padding-left: 16px;
+    &:before {
+      content: ' ';
+      display: inline-block;
+      top: 50%;
+      margin-top: -3px;
+      left: 0;
+      position: absolute;
+      background: $light;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+    }
+  }
+}

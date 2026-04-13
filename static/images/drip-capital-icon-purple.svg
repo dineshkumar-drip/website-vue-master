@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 131.5 157.9"
+	 style="enable-background:new 0 0 131.5 157.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#322d59;}
+</style>
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<g id="Layer_1">
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M48.5,55.3c-4-3.4-9.6-5.2-16.8-5.2h-3.1c-0.8,0-1.5,0.7-1.5,1.5v5.9c0,0.8,0.7,1.5,1.5,1.5l2.8,0
+							c4.5,0,8,1,10.4,2.8c2.3,1.9,3.4,4.6,3.4,8.3c0,3.8-1.1,6.6-3.5,8.5c-2.4,1.9-5.8,2.9-10.4,2.9h-2.8c-0.8,0-1.5,0.7-1.5,1.5
+							v5.9c0,0.8,0.7,1.5,1.5,1.5h3.1c7.1,0,12.8-1.8,16.7-5.4c4-3.6,6.1-8.7,6.1-15.2C54.6,63.6,52.5,58.7,48.5,55.3z"/>
+						<path class="st0" d="M89.4,79.3c2.4-1.9,5.8-2.9,10.4-2.9h2.8c0.8,0,1.5-0.7,1.5-1.5v-5.9c0-0.8-0.7-1.5-1.5-1.5h-3.1
+							c-7.1,0-12.8,1.8-16.7,5.4c-4,3.6-6.1,8.7-6.1,15.2c0,6.2,2,11.1,6,14.6c4,3.4,9.6,5.2,16.8,5.2h3.1c0.8,0,1.5-0.7,1.5-1.5
+							v-5.9c0-0.8-0.7-1.5-1.5-1.5l-2.8,0c-4.5,0-8-1-10.4-2.8c-2.3-1.9-3.4-4.6-3.4-8.3C85.9,84,87,81.2,89.4,79.3z"/>
+						<path class="st0" d="M53,115.9l6.4,1.6c0.8,0.2,1.6-0.3,1.8-1.1l18.1-72.6c0.2-0.8-0.3-1.6-1.1-1.8l-6.4-1.6
+							c-0.8-0.2-1.6,0.3-1.8,1.1l-18.1,72.6C51.7,114.9,52.2,115.7,53,115.9z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g id="Layer_2">
+		</g>
+	</g>
+</switch>
+</svg>

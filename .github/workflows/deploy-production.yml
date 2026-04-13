@@ -1,0 +1,240 @@
+name: Deploy-to-Production
+
+on:
+  push:
+    branches:
+      - "master"
+
+# Environment variables
+env:
+  NODE_VERSION: "16.14.2"
+  RUBY_PATH: /opt/hostedtoolcache/Ruby/2.4.2/arm64/bin
+  BUNDLE_PATH: /home/app/.bundle
+  DEPENDENCIES_NEXT: "1"
+  NUXT_DEFAULT_LOCALE: "en"
+  WEBSITE_HOST: "www.dripcapital.com"
+  WEBSITE_HOST_MX: "www.dripcapital.mx"
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy to Production
+    runs-on: self-hosted
+    timeout-minutes: 10
+
+    steps:
+      # Display deployment info
+      - name: Set deployment info
+        id: vars
+        run: |
+          echo "deployer=${{ github.actor }}" >> $GITHUB_OUTPUT
+          echo "website_branch=${{ github.event.inputs.website_branch }}" >> $GITHUB_OUTPUT
+
+          echo "============================================"
+          echo "Deployment Configuration"
+          echo "============================================"
+          echo "Deployer:  ${{ github.actor }}"
+          echo "Branch:    ${{ github.event.inputs.website_branch }}"
+          echo "============================================"
+
+      # Checkout the selected branch (master only)
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ steps.vars.outputs.website_branch }}
+          fetch-depth: 1
+
+      # Check if npm dependencies need to be installed
+      - name: Check npm cache
+        id: npm_cache
+        run: |
+          # Generate hash of package-lock.json
+          LOCK_HASH=$(md5sum package-lock.json | cut -d' ' -f1)
+          CACHE_FILE="/home/app/.npm-cache-hash-website-vue"
+
+          if [ -d "node_modules" ] && [ -f "$CACHE_FILE" ]; then
+            CACHED_HASH=$(cat "$CACHE_FILE")
+            if [ "$LOCK_HASH" = "$CACHED_HASH" ]; then
+              echo "cache_hit=true" >> $GITHUB_OUTPUT
+              echo "✓ npm cache valid, skipping install"
+            else
+              echo "cache_hit=false" >> $GITHUB_OUTPUT
+              echo "✗ package-lock.json changed, will reinstall"
+            fi
+          else
+            echo "cache_hit=false" >> $GITHUB_OUTPUT
+            echo "✗ No cache found, will install"
+          fi
+
+          # Save current hash for next run
+          echo "$LOCK_HASH" > "$CACHE_FILE"
+
+      # Setup Node, install dependencies, and build application
+      - name: Setup Node, install dependencies, and build
+        env:
+          GTM_KEY: ${{ secrets.GTM_KEY }}
+        run: |
+          # Setup NVM and Node.js
+          export NVM_DIR="/home/app/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+          # Check if the required version is available, install if not
+          if nvm ls ${{ env.NODE_VERSION }} >/dev/null 2>&1; then
+            echo "✓ Node ${{ env.NODE_VERSION }} already installed"
+          else
+            echo "Installing Node ${{ env.NODE_VERSION }}..."
+            nvm install ${{ env.NODE_VERSION }}
+          fi
+
+          nvm use ${{ env.NODE_VERSION }}
+          echo "Node version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+
+          # Source production environment variables
+          source /home/app/production.sh
+
+          # Install npm dependencies if needed
+          if [ "${{ steps.npm_cache.outputs.cache_hit }}" != "true" ]; then
+            echo "=== Installing npm dependencies ==="
+            npm --silent --no-spin --production install .
+            echo "=== npm install complete ==="
+          else
+            echo "=== Skipping npm install (cache hit) ==="
+          fi
+
+          # Build the application
+          echo "=== Building application ==="
+          NUXT_DEFAULT_LOCALE=${{ env.NUXT_DEFAULT_LOCALE }} \
+          WEBSITE_HOST=${{ env.WEBSITE_HOST }} \
+          WEBSITE_HOST_MX=${{ env.WEBSITE_HOST_MX }} \
+          GTM_KEY=${GTM_KEY} \
+          npm run generate
+
+          echo "=== Build complete ==="
+
+      # Copy routes file if exists and create zip
+      - name: Package distribution
+        run: |
+          echo "=== Packaging distribution ==="
+
+          # Copy routes_path.json if it exists
+          if [ -e ./utils/routes_path.json ]; then
+            mkdir -p dist/utils/
+            cp ./utils/routes_path.json dist/utils/
+            echo "✓ Copied routes_path.json"
+          fi
+
+          # Create zip archive
+          zip -r dist.zip dist/*
+
+          echo "=== Packaging complete ==="
+
+      # Check if Ruby is available in the cached path
+      - name: Check Ruby availability
+        id: ruby_check
+        run: |
+          export PATH="${{ env.RUBY_PATH }}:$PATH"
+
+          RUBY_VER=$(ruby --version 2>/dev/null || echo "not found")
+          echo "Detected Ruby: $RUBY_VER"
+
+          if echo "$RUBY_VER" | grep -q "ruby 2.4"; then
+            echo "ruby_available=true" >> $GITHUB_OUTPUT
+            echo "✓ Ruby 2.4.x found in cache, will skip setup"
+          else
+            echo "ruby_available=false" >> $GITHUB_OUTPUT
+            echo "✗ Ruby 2.4.x not found, will run setup action"
+          fi
+
+      # Install Ruby via setup-ruby action (only if not already available)
+      - name: Setup Ruby 2.4.2
+        if: steps.ruby_check.outputs.ruby_available != 'true'
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "2.4.2"
+          bundler-cache: false
+
+      # Verify Ruby environment
+      - name: Verify Ruby Environment
+        run: |
+          export PATH="${{ env.RUBY_PATH }}:$PATH"
+
+          echo "Ruby version: $(ruby --version)"
+          echo "Gem path: $(gem env home)"
+
+          if ! ruby --version | grep -q "ruby 2.4"; then
+            echo "ERROR: Expected Ruby 2.4.x but got $(ruby --version)"
+            exit 1
+          fi
+
+      # Check if bundle dependencies need to be installed
+      - name: Check bundle cache
+        id: bundle_cache
+        run: |
+          export PATH="${{ env.RUBY_PATH }}:$PATH"
+
+          LOCK_HASH=$(md5sum deploy/Gemfile.lock | cut -d' ' -f1)
+          CACHE_FILE="/home/app/.bundle-cache-hash-website-vue"
+
+          # Check if bundle path exists, cache file exists, AND capistrano is actually installed
+          if [ -d "${{ env.BUNDLE_PATH }}" ] && [ -f "$CACHE_FILE" ]; then
+            CACHED_HASH=$(cat "$CACHE_FILE")
+            if [ "$LOCK_HASH" = "$CACHED_HASH" ]; then
+              # Verify cap command actually works
+              cd deploy
+              if bundle exec cap --version > /dev/null 2>&1; then
+                echo "cache_hit=true" >> $GITHUB_OUTPUT
+                echo "✓ Bundle cache valid and cap verified, skipping install"
+              else
+                echo "cache_hit=false" >> $GITHUB_OUTPUT
+                echo "✗ Cache hash matches but cap not found, will reinstall"
+              fi
+              cd ..
+            else
+              echo "cache_hit=false" >> $GITHUB_OUTPUT
+              echo "✗ Gemfile.lock changed, will reinstall"
+            fi
+          else
+            echo "cache_hit=false" >> $GITHUB_OUTPUT
+            echo "✗ No bundle cache found, will install"
+          fi
+
+          # Save current hash for next run
+          echo "$LOCK_HASH" > "$CACHE_FILE"
+
+      # Install bundle dependencies (skip if cached)
+      - name: Install bundle dependencies
+        if: steps.bundle_cache.outputs.cache_hit != 'true'
+        run: |
+          export PATH="${{ env.RUBY_PATH }}:$PATH"
+
+          cd deploy
+          echo "=== Installing bundle dependencies ==="
+          bundle install --path ${{ env.BUNDLE_PATH }} --with development --jobs 4 --retry 3
+          echo "=== Bundle install complete ==="
+
+      # Deploy via Capistrano to PRODUCTION
+      - name: Deploy via Capistrano
+        env:
+          WEBSITE_BRANCH: ${{ steps.vars.outputs.website_branch }}
+        run: |
+          export PATH="${{ env.RUBY_PATH }}:$PATH"
+
+          echo "============================================"
+          echo "Starting Capistrano deployment to PRODUCTION"
+          echo "============================================"
+          echo "Branch: ${WEBSITE_BRANCH}"
+          echo "Time:   $(date)"
+          echo "============================================"
+          echo ""
+
+          cd deploy
+
+          # Run Capistrano deploy
+          bundle config set --local path ${{ env.BUNDLE_PATH }}
+          echo "=== Running Capistrano deploy ==="
+          DEPENDENCIES_NEXT=1 bundle exec cap production deploy
+
+          echo ""
+          echo "============================================"
+          echo "Deployment completed successfully! 🚀"
+          echo "============================================"

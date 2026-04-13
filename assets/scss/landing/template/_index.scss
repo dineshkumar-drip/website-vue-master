@@ -1,0 +1,10 @@
+@import './jumbotron';
+@import './form';
+@import './conclusion';
+
+.landing-template-container {
+  .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

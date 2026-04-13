@@ -1,0 +1,23 @@
+@include media-breakpoint-up(md) {
+  .investor-accel {
+    margin-top: -12px;
+  }
+
+  .investor-initialized {
+    margin-top: 10px;
+  }
+
+  .investors-row-1 {
+    margin-top: 40px;
+  }
+
+  .investors-row-2 {
+    margin-top: 120px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .investor-thumb {
+    margin-bottom: 40px;
+  }
+}

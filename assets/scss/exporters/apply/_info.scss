@@ -1,0 +1,37 @@
+.exporters-apply-page-container {
+  .application-info {
+    padding: 2rem 0;
+    background: $light-background;
+    margin-top: 4rem;
+
+    .slash-big {
+      background-image: url(~/assets/images/drip-slash.svg);
+      padding: 0.6rem 5rem 0.5rem 2.3rem;
+      background-repeat: no-repeat;
+      background-position-x: -9%;
+      height: 5rem;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .exporters-apply-page-container {
+    .application-info {
+      .slash-big {
+        padding: 0.6em 0.3em 0.6em 3em;
+        background-position-x: -10%;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .exporters-apply-page-container {
+    .application-info {
+      .slash-big {
+        padding: 0.6em 1em 0.6em 5em;
+        background-position-x: 0;
+      }
+    }
+  }
+}

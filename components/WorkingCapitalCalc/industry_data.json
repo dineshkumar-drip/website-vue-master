@@ -1,0 +1,2877 @@
+[
+  {
+    "User ID": "367,016",
+    "Industry": "Consumer - Others",
+    "CCC": "16.28126087"
+  },
+  {
+    "User ID": "377,270",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "115.2516578"
+  },
+  {
+    "User ID": "363,206",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "23.55745184"
+  },
+  {
+    "User ID": "379,483",
+    "Industry": "Consumer - Others",
+    "CCC": "32.77865322"
+  },
+  {
+    "User ID": "379,751",
+    "Industry": "Consumer - Others",
+    "CCC": "60.89705457"
+  },
+  {
+    "User ID": "372,168",
+    "Industry": "Electronics",
+    "CCC": "119.4114106"
+  },
+  {
+    "User ID": "458,863",
+    "Industry": "Material - Others",
+    "CCC": "41.22497258"
+  },
+  {
+    "User ID": "379,749",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "5.98095065"
+  },
+  {
+    "User ID": "376,274",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "128.6089753"
+  },
+  {
+    "User ID": "377,049",
+    "Industry": "Electronics",
+    "CCC": "136.3698905"
+  },
+  {
+    "User ID": "374,356",
+    "Industry": "Consumer - Others",
+    "CCC": "47.93687162"
+  },
+  {
+    "User ID": "376,675",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "49.88708171"
+  },
+  {
+    "User ID": "376,390",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "86.99802699"
+  },
+  {
+    "User ID": "375,863",
+    "Industry": "Other",
+    "CCC": "51.46392592"
+  },
+  {
+    "User ID": "378,019",
+    "Industry": "Consumer - Grocery",
+    "CCC": "20.27569406"
+  },
+  {
+    "User ID": "373,408",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "82.24749321"
+  },
+  {
+    "User ID": "378,026",
+    "Industry": "Consumer - Others",
+    "CCC": "30.34263742"
+  },
+  {
+    "User ID": "378,114",
+    "Industry": "Consumer - Others",
+    "CCC": "-0.457310691"
+  },
+  {
+    "User ID": "377,667",
+    "Industry": "Consumer - Others",
+    "CCC": "1.224138518"
+  },
+  {
+    "User ID": "377,867",
+    "Industry": "Packaged Foods",
+    "CCC": "102.0974765"
+  },
+  {
+    "User ID": "376,471",
+    "Industry": "Electronics",
+    "CCC": "180.0312789"
+  },
+  {
+    "User ID": "376,296",
+    "Industry": "Other",
+    "CCC": "60.66432294"
+  },
+  {
+    "User ID": "377,132",
+    "Industry": "Packaged Foods",
+    "CCC": "157.0126272"
+  },
+  {
+    "User ID": "375,935",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "59.75737283"
+  },
+  {
+    "User ID": "374,154",
+    "Industry": "Other",
+    "CCC": "24.39663913"
+  },
+  {
+    "User ID": "342,764",
+    "Industry": "Electronics",
+    "CCC": "50.9752885"
+  },
+  {
+    "User ID": "376,989",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "53.38000843"
+  },
+  {
+    "User ID": "376,715",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "-5.896508087"
+  },
+  {
+    "User ID": "374,708",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "21.17422085"
+  },
+  {
+    "User ID": "375,714",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "53.89380282"
+  },
+  {
+    "User ID": "367,020",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "98.89508619"
+  },
+  {
+    "User ID": "374,515",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "262.5906904"
+  },
+  {
+    "User ID": "359,520",
+    "Industry": "Industrial Goods",
+    "CCC": "73.3137186"
+  },
+  {
+    "User ID": "375,933",
+    "Industry": "Consumer - Others",
+    "CCC": "47.09865048"
+  },
+  {
+    "User ID": "369,016",
+    "Industry": "Consumer - Others",
+    "CCC": "25.05076953"
+  },
+  {
+    "User ID": "373,076",
+    "Industry": "Electronics",
+    "CCC": "97.42226341"
+  },
+  {
+    "User ID": "375,356",
+    "Industry": "Consumer - Others",
+    "CCC": "49.09293067"
+  },
+  {
+    "User ID": "369,410",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "21.23900407"
+  },
+  {
+    "User ID": "370,838",
+    "Industry": "Food - Animal Products",
+    "CCC": "93.5102595"
+  },
+  {
+    "User ID": "374,771",
+    "Industry": "Food - Animal Products",
+    "CCC": "227.5360688"
+  },
+  {
+    "User ID": "369,143",
+    "Industry": "Consumer - Grocery",
+    "CCC": "125.2457208"
+  },
+  {
+    "User ID": "372,362",
+    "Industry": "Consumer - Grocery",
+    "CCC": "10.25017234"
+  },
+  {
+    "User ID": "367,293",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "-92.71540153"
+  },
+  {
+    "User ID": "373,386",
+    "Industry": "",
+    "CCC": "-4.034627934"
+  },
+  {
+    "User ID": "368,797",
+    "Industry": "Food - Plant Products",
+    "CCC": "14.66432003"
+  },
+  {
+    "User ID": "373,774",
+    "Industry": "Textiles & Apparel",
+    "CCC": "383.044665"
+  },
+  {
+    "User ID": "369,069",
+    "Industry": "Packaged Foods",
+    "CCC": "44.66069416"
+  },
+  {
+    "User ID": "370,111",
+    "Industry": "Consumer - Grocery",
+    "CCC": "219.3607688"
+  },
+  {
+    "User ID": "372,687",
+    "Industry": "Electronics",
+    "CCC": "123.8073288"
+  },
+  {
+    "User ID": "367,618",
+    "Industry": "Consumer - Others",
+    "CCC": "57.22800095"
+  },
+  {
+    "User ID": "367,550",
+    "Industry": "Consumer - Grocery",
+    "CCC": "195.6754285"
+  },
+  {
+    "User ID": "371,050",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "78.72300233"
+  },
+  {
+    "User ID": "372,365",
+    "Industry": "Industrial Goods",
+    "CCC": "127.2792525"
+  },
+  {
+    "User ID": "371,039",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "39.78100709"
+  },
+  {
+    "User ID": "369,765",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "63.80164917"
+  },
+  {
+    "User ID": "371,609",
+    "Industry": "Consumer - Others",
+    "CCC": "1517.932182"
+  },
+  {
+    "User ID": "371,538",
+    "Industry": "Industrial Goods",
+    "CCC": "32.86319842"
+  },
+  {
+    "User ID": "370,388",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "64.91553278"
+  },
+  {
+    "User ID": "371,629",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": ""
+  },
+  {
+    "User ID": "369,893",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "119.0123786"
+  },
+  {
+    "User ID": "369,213",
+    "Industry": "Food - Plant Products",
+    "CCC": "344.8522418"
+  },
+  {
+    "User ID": "369,628",
+    "Industry": "Consumer - Others",
+    "CCC": "99.3678446"
+  },
+  {
+    "User ID": "367,095",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "340.8310722"
+  },
+  {
+    "User ID": "354,042",
+    "Industry": "Consumer - Others",
+    "CCC": "-3.208483818"
+  },
+  {
+    "User ID": "369,414",
+    "Industry": "Textiles & Apparel",
+    "CCC": "156.0220297"
+  },
+  {
+    "User ID": "366,959",
+    "Industry": "Consumer - Others",
+    "CCC": "35.77742292"
+  },
+  {
+    "User ID": "360,130",
+    "Industry": "Industrial Goods",
+    "CCC": "72.21818411"
+  },
+  {
+    "User ID": "367,961",
+    "Industry": "Food - Animal Products",
+    "CCC": "34.20301131"
+  },
+  {
+    "User ID": "364,786",
+    "Industry": "Consumer - Grocery",
+    "CCC": "13.52725544"
+  },
+  {
+    "User ID": "360,192",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "72.56037293"
+  },
+  {
+    "User ID": "368,311",
+    "Industry": "Food - Plant Products",
+    "CCC": "49.98323132"
+  },
+  {
+    "User ID": "367,417",
+    "Industry": "Consumer - Grocery",
+    "CCC": "85.82989294"
+  },
+  {
+    "User ID": "357,710",
+    "Industry": "Electronics",
+    "CCC": "556.1879644"
+  },
+  {
+    "User ID": "368,909",
+    "Industry": "",
+    "CCC": "214.3176254"
+  },
+  {
+    "User ID": "360,994",
+    "Industry": "Consumer - Others",
+    "CCC": "60.62104345"
+  },
+  {
+    "User ID": "367,852",
+    "Industry": "Consumer - Grocery",
+    "CCC": "78.56981691"
+  },
+  {
+    "User ID": "363,139",
+    "Industry": "Electronics",
+    "CCC": "87.33225816"
+  },
+  {
+    "User ID": "361,635",
+    "Industry": "Electronics",
+    "CCC": "22.00832385"
+  },
+  {
+    "User ID": "368,264",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "124.0631734"
+  },
+  {
+    "User ID": "368,080",
+    "Industry": "Material - Others",
+    "CCC": "23.91073345"
+  },
+  {
+    "User ID": "367,917",
+    "Industry": "Textiles & Apparel",
+    "CCC": "63.7370419"
+  },
+  {
+    "User ID": "359,093",
+    "Industry": "Electronics",
+    "CCC": "368.7259845"
+  },
+  {
+    "User ID": "364,335",
+    "Industry": "Materials - Others",
+    "CCC": "59.05234715"
+  },
+  {
+    "User ID": "364,466",
+    "Industry": "Textiles & Apparel",
+    "CCC": "799.1896622"
+  },
+  {
+    "User ID": "363,252",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "122.2443353"
+  },
+  {
+    "User ID": "367,217",
+    "Industry": "Electronics",
+    "CCC": "37.91312774"
+  },
+  {
+    "User ID": "363,552",
+    "Industry": "Textiles & Apparel",
+    "CCC": "1340.784172"
+  },
+  {
+    "User ID": "362,218",
+    "Industry": "Electronics",
+    "CCC": "45.02907081"
+  },
+  {
+    "User ID": "362,582",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "19.37262044"
+  },
+  {
+    "User ID": "364,065",
+    "Industry": "Material - Others",
+    "CCC": "1005.178436"
+  },
+  {
+    "User ID": "363,900",
+    "Industry": "Materials - Others",
+    "CCC": "91.10502547"
+  },
+  {
+    "User ID": "360,997",
+    "Industry": "Textiles & Apparel",
+    "CCC": "238.7848248"
+  },
+  {
+    "User ID": "355,866",
+    "Industry": "Industrial Goods",
+    "CCC": "183.8816731"
+  },
+  {
+    "User ID": "363,895",
+    "Industry": "Industrial Goods",
+    "CCC": "179.6844882"
+  },
+  {
+    "User ID": "355,040",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "28.16527539"
+  },
+  {
+    "User ID": "364,273",
+    "Industry": "Consumer - Grocery",
+    "CCC": "277.3102468"
+  },
+  {
+    "User ID": "332,463",
+    "Industry": "Textiles & Apparel",
+    "CCC": "83.56883195"
+  },
+  {
+    "User ID": "362,137",
+    "Industry": "Industrial Goods",
+    "CCC": "-2.448797331"
+  },
+  {
+    "User ID": "364,158",
+    "Industry": "Material - Packaging",
+    "CCC": "5.761218169"
+  },
+  {
+    "User ID": "362,439",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "31.47907957"
+  },
+  {
+    "User ID": "363,789",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "27.94727432"
+  },
+  {
+    "User ID": "359,843",
+    "Industry": "Food - Plant Products",
+    "CCC": "83.39297965"
+  },
+  {
+    "User ID": "362,803",
+    "Industry": "Electronics",
+    "CCC": "19.90748532"
+  },
+  {
+    "User ID": "361,912",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "93.02851202"
+  },
+  {
+    "User ID": "362,449",
+    "Industry": "Consumer - Others",
+    "CCC": "5.970333342"
+  },
+  {
+    "User ID": "359,979",
+    "Industry": "Electronics",
+    "CCC": "-6.571995508"
+  },
+  {
+    "User ID": "358,905",
+    "Industry": "Consumer - Grocery",
+    "CCC": "22.96239695"
+  },
+  {
+    "User ID": "349,000",
+    "Industry": "Consumer - Others",
+    "CCC": "52.57304473"
+  },
+  {
+    "User ID": "361,913",
+    "Industry": "Food - Animal Products",
+    "CCC": "91.34831298"
+  },
+  {
+    "User ID": "355,190",
+    "Industry": "Materials - Others",
+    "CCC": ""
+  },
+  {
+    "User ID": "358,235",
+    "Industry": "Electronics",
+    "CCC": "-147.3860525"
+  },
+  {
+    "User ID": "362,446",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "8.109406973"
+  },
+  {
+    "User ID": "361,624",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "82.93146978"
+  },
+  {
+    "User ID": "361,120",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "359,090",
+    "Industry": "Consumer - Others",
+    "CCC": "104.4714146"
+  },
+  {
+    "User ID": "360,602",
+    "Industry": "Electronics",
+    "CCC": "23.64167475"
+  },
+  {
+    "User ID": "360,851",
+    "Industry": "Consumer - Others",
+    "CCC": "114.2193564"
+  },
+  {
+    "User ID": "362,132",
+    "Industry": "Packaged Foods",
+    "CCC": "188.1194908"
+  },
+  {
+    "User ID": "359,532",
+    "Industry": "Consumer - Grocery",
+    "CCC": "34.9348632"
+  },
+  {
+    "User ID": "346,393",
+    "Industry": "Consumer - Grocery",
+    "CCC": "10.9649436"
+  },
+  {
+    "User ID": "361,130",
+    "Industry": "Electronics",
+    "CCC": "53.10665595"
+  },
+  {
+    "User ID": "361,459",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "91.04881669"
+  },
+  {
+    "User ID": "357,167",
+    "Industry": "Consumer - Grocery",
+    "CCC": "30.41230849"
+  },
+  {
+    "User ID": "361,449",
+    "Industry": "Electronics",
+    "CCC": "20.01540608"
+  },
+  {
+    "User ID": "359,790",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "30.6987237"
+  },
+  {
+    "User ID": "359,614",
+    "Industry": "Consumer - Others",
+    "CCC": "47.89792995"
+  },
+  {
+    "User ID": "361,001",
+    "Industry": "Consumer - Grocery",
+    "CCC": "-25.03379382"
+  },
+  {
+    "User ID": "359,981",
+    "Industry": "Consumer - Grocery",
+    "CCC": "-4.38167704"
+  },
+  {
+    "User ID": "358,024",
+    "Industry": "Industrial Goods",
+    "CCC": "91.07720918"
+  },
+  {
+    "User ID": "358,970",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "75.8548552"
+  },
+  {
+    "User ID": "358,973",
+    "Industry": "Electronics",
+    "CCC": "238.6193806"
+  },
+  {
+    "User ID": "359,487",
+    "Industry": "Consumer - Grocery",
+    "CCC": "183.5429958"
+  },
+  {
+    "User ID": "359,315",
+    "Industry": "Food - Plant Products",
+    "CCC": "7.125897069"
+  },
+  {
+    "User ID": "351,723",
+    "Industry": "Electronics",
+    "CCC": "121.4729661"
+  },
+  {
+    "User ID": "360,337",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "91.08156066"
+  },
+  {
+    "User ID": "358,340",
+    "Industry": "Textiles & Apparel",
+    "CCC": "70.36981322"
+  },
+  {
+    "User ID": "356,235",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "-5.501471289"
+  },
+  {
+    "User ID": "358,281",
+    "Industry": "Electronics",
+    "CCC": "25.62563657"
+  },
+  {
+    "User ID": "353,595",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "248.9193466"
+  },
+  {
+    "User ID": "359,317",
+    "Industry": "Food - Plant Products",
+    "CCC": "57.7552291"
+  },
+  {
+    "User ID": "358,889",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "288.5462029"
+  },
+  {
+    "User ID": "359,861",
+    "Industry": "Consumer - Others",
+    "CCC": "-3.225819363"
+  },
+  {
+    "User ID": "359,792",
+    "Industry": "Consumer - Others",
+    "CCC": "118.1190465"
+  },
+  {
+    "User ID": "358,697",
+    "Industry": "Food - Plant Products",
+    "CCC": "32.66624839"
+  },
+  {
+    "User ID": "358,542",
+    "Industry": "Consumer - Others",
+    "CCC": "51.7506203"
+  },
+  {
+    "User ID": "356,664",
+    "Industry": "Consumer - Others",
+    "CCC": "10.76106489"
+  },
+  {
+    "User ID": "359,304",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "53.04226068"
+  },
+  {
+    "User ID": "358,450",
+    "Industry": "Consumer - Others",
+    "CCC": "251.5908157"
+  },
+  {
+    "User ID": "355,942",
+    "Industry": "Consumer - Grocery",
+    "CCC": "-54.11585587"
+  },
+  {
+    "User ID": "358,642",
+    "Industry": "Electronics",
+    "CCC": "6.436184134"
+  },
+  {
+    "User ID": "358,441",
+    "Industry": "Consumer - Others",
+    "CCC": "165.5361285"
+  },
+  {
+    "User ID": "356,949",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "141.6464733"
+  },
+  {
+    "User ID": "358,816",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "104.7809163"
+  },
+  {
+    "User ID": "356,956",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "315.9589268"
+  },
+  {
+    "User ID": "357,503",
+    "Industry": "Textiles & Apparel",
+    "CCC": "133.1835956"
+  },
+  {
+    "User ID": "355,323",
+    "Industry": "Electronics",
+    "CCC": "48.5515247"
+  },
+  {
+    "User ID": "357,162",
+    "Industry": "Food - Plant Products",
+    "CCC": "-0.588515409"
+  },
+  {
+    "User ID": "353,494",
+    "Industry": "Electronics",
+    "CCC": "89.41427312"
+  },
+  {
+    "User ID": "354,510",
+    "Industry": "Electronics",
+    "CCC": "84.5775211"
+  },
+  {
+    "User ID": "357,873",
+    "Industry": "Consumer - Grocery",
+    "CCC": "231.4374322"
+  },
+  {
+    "User ID": "356,947",
+    "Industry": "Consumer - Grocery",
+    "CCC": "122.8844604"
+  },
+  {
+    "User ID": "357,543",
+    "Industry": "Electronics",
+    "CCC": "150.8531529"
+  },
+  {
+    "User ID": "357,694",
+    "Industry": "Consumer - Others",
+    "CCC": "182.7491061"
+  },
+  {
+    "User ID": "357,762",
+    "Industry": "Consumer - Grocery",
+    "CCC": "0.090505128"
+  },
+  {
+    "User ID": "356,247",
+    "Industry": "Consumer - Grocery",
+    "CCC": "17.81586258"
+  },
+  {
+    "User ID": "353,969",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "215.2616824"
+  },
+  {
+    "User ID": "357,010",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "87.07382376"
+  },
+  {
+    "User ID": "351,076",
+    "Industry": "Textiles & Apparel",
+    "CCC": "99.1074846"
+  },
+  {
+    "User ID": "356,662",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "75.50734073"
+  },
+  {
+    "User ID": "352,047",
+    "Industry": "Food - Animal Products",
+    "CCC": "72.0832142"
+  },
+  {
+    "User ID": "354,615",
+    "Industry": "Consumer - Grocery",
+    "CCC": "121.3313405"
+  },
+  {
+    "User ID": "356,586",
+    "Industry": "Electronics",
+    "CCC": "129.523123"
+  },
+  {
+    "User ID": "355,036",
+    "Industry": "Electronics",
+    "CCC": "29.12874472"
+  },
+  {
+    "User ID": "351,739",
+    "Industry": "Electronics",
+    "CCC": "4.303260202"
+  },
+  {
+    "User ID": "355,939",
+    "Industry": "Consumer - Grocery",
+    "CCC": "-41.45943687"
+  },
+  {
+    "User ID": "356,386",
+    "Industry": "Consumer - Others",
+    "CCC": "148.7288106"
+  },
+  {
+    "User ID": "352,460",
+    "Industry": "Food - Plant Products",
+    "CCC": "-36.44975674"
+  },
+  {
+    "User ID": "349,576",
+    "Industry": "Electronics",
+    "CCC": "127.9492958"
+  },
+  {
+    "User ID": "355,807",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "384.5898525"
+  },
+  {
+    "User ID": "355,688",
+    "Industry": "Textiles & Apparel",
+    "CCC": "326.2825118"
+  },
+  {
+    "User ID": "356,143",
+    "Industry": "Electronics",
+    "CCC": "19.9105176"
+  },
+  {
+    "User ID": "356,032",
+    "Industry": "Consumer - Others",
+    "CCC": "80.03196184"
+  },
+  {
+    "User ID": "355,201",
+    "Industry": "Construction",
+    "CCC": "-9.355773157"
+  },
+  {
+    "User ID": "355,112",
+    "Industry": "Electronics",
+    "CCC": "-13.4715899"
+  },
+  {
+    "User ID": "355,266",
+    "Industry": "Food - Animal Products",
+    "CCC": "2.397006296"
+  },
+  {
+    "User ID": "355,694",
+    "Industry": "Consumer - Others",
+    "CCC": "28.26120023"
+  },
+  {
+    "User ID": "352,462",
+    "Industry": "Textiles & Apparel",
+    "CCC": "106.5026633"
+  },
+  {
+    "User ID": "354,246",
+    "Industry": "Textiles & Apparel",
+    "CCC": "91.57346295"
+  },
+  {
+    "User ID": "355,107",
+    "Industry": "Food - Animal Products",
+    "CCC": "96.50024254"
+  },
+  {
+    "User ID": "354,845",
+    "Industry": "Consumer - Others",
+    "CCC": "108.9482836"
+  },
+  {
+    "User ID": "354,612",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "128.374463"
+  },
+  {
+    "User ID": "349,614",
+    "Industry": "Consumer - Others",
+    "CCC": "203.1011858"
+  },
+  {
+    "User ID": "355,105",
+    "Industry": "Textiles & Apparel",
+    "CCC": "123.7951468"
+  },
+  {
+    "User ID": "350,945",
+    "Industry": "Industrial Goods",
+    "CCC": "108.7826962"
+  },
+  {
+    "User ID": "354,849",
+    "Industry": "Consumer - Others",
+    "CCC": "98.65271167"
+  },
+  {
+    "User ID": "350,382",
+    "Industry": "Consumer - Others",
+    "CCC": "28.17893167"
+  },
+  {
+    "User ID": "354,620",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "-266.5262617"
+  },
+  {
+    "User ID": "354,705",
+    "Industry": "Food - Plant Products",
+    "CCC": "312.1886386"
+  },
+  {
+    "User ID": "354,526",
+    "Industry": "Materials - Others",
+    "CCC": "219.2732578"
+  },
+  {
+    "User ID": "354,534",
+    "Industry": "Consumer - Others",
+    "CCC": "93.62742243"
+  },
+  {
+    "User ID": "354,674",
+    "Industry": "Textiles & Apparel",
+    "CCC": "30.55474325"
+  },
+  {
+    "User ID": "353,023",
+    "Industry": "Food - Plant Products",
+    "CCC": "49.12251443"
+  },
+  {
+    "User ID": "349,004",
+    "Industry": "Electronics",
+    "CCC": "103.039382"
+  },
+  {
+    "User ID": "347,127",
+    "Industry": "Electronics",
+    "CCC": "3.914865976"
+  },
+  {
+    "User ID": "353,659",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "52.74630751"
+  },
+  {
+    "User ID": "352,946",
+    "Industry": "Electronics",
+    "CCC": "83.85294854"
+  },
+  {
+    "User ID": "351,350",
+    "Industry": "Consumer - Grocery",
+    "CCC": "54.0281311"
+  },
+  {
+    "User ID": "352,807",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "15.06497943"
+  },
+  {
+    "User ID": "353,583",
+    "Industry": "Consumer - Others",
+    "CCC": "148.1920982"
+  },
+  {
+    "User ID": "349,012",
+    "Industry": "Textiles & Apparel",
+    "CCC": "5.890359643"
+  },
+  {
+    "User ID": "346,904",
+    "Industry": "Electronics",
+    "CCC": "62.37236704"
+  },
+  {
+    "User ID": "353,380",
+    "Industry": "Material - Packaging",
+    "CCC": "32.92881418"
+  },
+  {
+    "User ID": "339,175",
+    "Industry": "",
+    "CCC": "336.7142702"
+  },
+  {
+    "User ID": "351,639",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "191.680329"
+  },
+  {
+    "User ID": "349,228",
+    "Industry": "Industrial Goods",
+    "CCC": "26.49408237"
+  },
+  {
+    "User ID": "314,287",
+    "Industry": "Industrial Goods",
+    "CCC": "57.63824283"
+  },
+  {
+    "User ID": "352,129",
+    "Industry": "Textiles & Apparel",
+    "CCC": "463.7568359"
+  },
+  {
+    "User ID": "349,874",
+    "Industry": "Consumer - Others",
+    "CCC": "259.3421703"
+  },
+  {
+    "User ID": "328,109",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "195.0520636"
+  },
+  {
+    "User ID": "348,738",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "36.11880253"
+  },
+  {
+    "User ID": "348,551",
+    "Industry": "Electronics",
+    "CCC": "97.17429374"
+  },
+  {
+    "User ID": "325,954",
+    "Industry": "",
+    "CCC": "33.49374412"
+  },
+  {
+    "User ID": "349,275",
+    "Industry": "Consumer - Others",
+    "CCC": "215.3270998"
+  },
+  {
+    "User ID": "348,672",
+    "Industry": "Consumer - Others",
+    "CCC": "61.49382856"
+  },
+  {
+    "User ID": "349,448",
+    "Industry": "Material - Packaging",
+    "CCC": "39.50779445"
+  },
+  {
+    "User ID": "345,006",
+    "Industry": "Consumer - Others",
+    "CCC": ""
+  },
+  {
+    "User ID": "349,915",
+    "Industry": "Consumer - Others",
+    "CCC": "110.7246014"
+  },
+  {
+    "User ID": "349,453",
+    "Industry": "Consumer - Others",
+    "CCC": "70.08998507"
+  },
+  {
+    "User ID": "314,339",
+    "Industry": "Materials - Others",
+    "CCC": "89.15284269"
+  },
+  {
+    "User ID": "348,944",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "98.33908985"
+  },
+  {
+    "User ID": "348,273",
+    "Industry": "Electronics",
+    "CCC": "59.19566684"
+  },
+  {
+    "User ID": "348,782",
+    "Industry": "Electronics",
+    "CCC": "514.3681056"
+  },
+  {
+    "User ID": "346,275",
+    "Industry": "Food - Animal Products",
+    "CCC": "81.33656905"
+  },
+  {
+    "User ID": "348,678",
+    "Industry": "Consumer - Others",
+    "CCC": "0.65607235"
+  },
+  {
+    "User ID": "343,093",
+    "Industry": "Electronics",
+    "CCC": "3.669523497"
+  },
+  {
+    "User ID": "343,692",
+    "Industry": "Electronics",
+    "CCC": "207.6664484"
+  },
+  {
+    "User ID": "347,235",
+    "Industry": "Electronics",
+    "CCC": "79.39615851"
+  },
+  {
+    "User ID": "345,964",
+    "Industry": "Consumer - Others",
+    "CCC": "85.78294111"
+  },
+  {
+    "User ID": "346,638",
+    "Industry": "Consumer - Grocery",
+    "CCC": "71.567659"
+  },
+  {
+    "User ID": "347,583",
+    "Industry": "Consumer - Grocery",
+    "CCC": "134.8225962"
+  },
+  {
+    "User ID": "346,585",
+    "Industry": "Consumer - Others",
+    "CCC": "75.72839862"
+  },
+  {
+    "User ID": "341,358",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "244.6054942"
+  },
+  {
+    "User ID": "328,105",
+    "Industry": "Textiles & Apparel",
+    "CCC": "33.65477315"
+  },
+  {
+    "User ID": "346,700",
+    "Industry": "Consumer - Others",
+    "CCC": "83.49691485"
+  },
+  {
+    "User ID": "345,413",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": ""
+  },
+  {
+    "User ID": "320,198",
+    "Industry": "Textiles & Apparel",
+    "CCC": "19.62657595"
+  },
+  {
+    "User ID": "337,805",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "356.3401354"
+  },
+  {
+    "User ID": "345,133",
+    "Industry": "Food - Plant Products",
+    "CCC": "-12.28032786"
+  },
+  {
+    "User ID": "346,971",
+    "Industry": "Consumer - Others",
+    "CCC": "320.3939321"
+  },
+  {
+    "User ID": "340,184",
+    "Industry": "Food - Plant Products",
+    "CCC": "53.0105525"
+  },
+  {
+    "User ID": "333,246",
+    "Industry": "Consumer - Grocery",
+    "CCC": "804.3395165"
+  },
+  {
+    "User ID": "342,693",
+    "Industry": "Food - Plant Products",
+    "CCC": "17.93034375"
+  },
+  {
+    "User ID": "331,131",
+    "Industry": "Other",
+    "CCC": "54.85518098"
+  },
+  {
+    "User ID": "339,205",
+    "Industry": "Other",
+    "CCC": "130.334535"
+  },
+  {
+    "User ID": "321,086",
+    "Industry": "Consumer - Grocery",
+    "CCC": "88.826435"
+  },
+  {
+    "User ID": "343,369",
+    "Industry": "Consumer - Others",
+    "CCC": "58.20085228"
+  },
+  {
+    "User ID": "341,599",
+    "Industry": "Industrial Goods",
+    "CCC": "85.55447722"
+  },
+  {
+    "User ID": "343,091",
+    "Industry": "Industrial Goods",
+    "CCC": "122.8241207"
+  },
+  {
+    "User ID": "333,547",
+    "Industry": "Other",
+    "CCC": "39.91537152"
+  },
+  {
+    "User ID": "336,548",
+    "Industry": "Industrial Goods",
+    "CCC": ""
+  },
+  {
+    "User ID": "337,791",
+    "Industry": "Consumer - Others",
+    "CCC": "63.30963418"
+  },
+  {
+    "User ID": "339,208",
+    "Industry": "Consumer - Grocery",
+    "CCC": "86.03874925"
+  },
+  {
+    "User ID": "327,349",
+    "Industry": "Consumer - Grocery",
+    "CCC": ""
+  },
+  {
+    "User ID": "326,026",
+    "Industry": "Textiles & Apparel",
+    "CCC": "179.4237824"
+  },
+  {
+    "User ID": "255,920",
+    "Industry": "Electronics",
+    "CCC": "168.9388779"
+  },
+  {
+    "User ID": "338,381",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "51.95587294"
+  },
+  {
+    "User ID": "315,552",
+    "Industry": "Packaged Foods",
+    "CCC": "139.5518145"
+  },
+  {
+    "User ID": "333,619",
+    "Industry": "Materials - Others",
+    "CCC": "123.2070521"
+  },
+  {
+    "User ID": "333,451",
+    "Industry": "Consumer - Grocery",
+    "CCC": "120.2958387"
+  },
+  {
+    "User ID": "336,582",
+    "Industry": "Packaged Foods",
+    "CCC": "348.0932581"
+  },
+  {
+    "User ID": "311,245",
+    "Industry": "Construction",
+    "CCC": "104.2687862"
+  },
+  {
+    "User ID": "327,126",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "359.9375867"
+  },
+  {
+    "User ID": "209,462",
+    "Industry": "Electronics",
+    "CCC": "151.2350156"
+  },
+  {
+    "User ID": "321,065",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "248.5721628"
+  },
+  {
+    "User ID": "331,589",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "100.7337214"
+  },
+  {
+    "User ID": "333,527",
+    "Industry": "Textiles & Apparel",
+    "CCC": "-89.10435412"
+  },
+  {
+    "User ID": "323,734",
+    "Industry": "Packaged Foods",
+    "CCC": "130.6335579"
+  },
+  {
+    "User ID": "329,376",
+    "Industry": "Food - Animal Products",
+    "CCC": "172.6153062"
+  },
+  {
+    "User ID": "315,457",
+    "Industry": "Materials - Others",
+    "CCC": "300.8385696"
+  },
+  {
+    "User ID": "314,513",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "45.15303068"
+  },
+  {
+    "User ID": "329,565",
+    "Industry": "Textiles & Apparel",
+    "CCC": "352.9492902"
+  },
+  {
+    "User ID": "291,822",
+    "Industry": "Other",
+    "CCC": "77.43062546"
+  },
+  {
+    "User ID": "327,232",
+    "Industry": "Construction",
+    "CCC": "34.07065525"
+  },
+  {
+    "User ID": "315,456",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "101.4289907"
+  },
+  {
+    "User ID": "320,302",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "263.8042354"
+  },
+  {
+    "User ID": "302,338",
+    "Industry": "Materials - Others",
+    "CCC": "19.34886316"
+  },
+  {
+    "User ID": "324,882",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "-63.28231245"
+  },
+  {
+    "User ID": "327,132",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "159.7294852"
+  },
+  {
+    "User ID": "321,087",
+    "Industry": "Other",
+    "CCC": "101.1894944"
+  },
+  {
+    "User ID": "310,196",
+    "Industry": "Industrial Goods",
+    "CCC": "74.01498032"
+  },
+  {
+    "User ID": "210,730",
+    "Industry": "Consumer - Others",
+    "CCC": "82.9276379"
+  },
+  {
+    "User ID": "304,670",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "94.16744865"
+  },
+  {
+    "User ID": "314,509",
+    "Industry": "Materials - Others",
+    "CCC": "97.25639954"
+  },
+  {
+    "User ID": "314,380",
+    "Industry": "Industrial Goods",
+    "CCC": "34.84216068"
+  },
+  {
+    "User ID": "314,490",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "107.0534141"
+  },
+  {
+    "User ID": "317,829",
+    "Industry": "Materials - Others",
+    "CCC": "-7.248318631"
+  },
+  {
+    "User ID": "307,201",
+    "Industry": "Consumer - Others",
+    "CCC": "27.97689552"
+  },
+  {
+    "User ID": "314,543",
+    "Industry": "Industrial Goods",
+    "CCC": "160.1631843"
+  },
+  {
+    "User ID": "295,111",
+    "Industry": "Food - Animal Products",
+    "CCC": "-6.821573842"
+  },
+  {
+    "User ID": "310,190",
+    "Industry": "Material - Packaging",
+    "CCC": "54.07876162"
+  },
+  {
+    "User ID": "307,954",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "286.9895093"
+  },
+  {
+    "User ID": "316,774",
+    "Industry": "Electronics",
+    "CCC": "114.3045155"
+  },
+  {
+    "User ID": "316,530",
+    "Industry": "Textiles & Apparel",
+    "CCC": "118.425753"
+  },
+  {
+    "User ID": "296,088",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "174.7734592"
+  },
+  {
+    "User ID": "315,445",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "208.4028725"
+  },
+  {
+    "User ID": "301,392",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "78.36509929"
+  },
+  {
+    "User ID": "303,637",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "25.24107597"
+  },
+  {
+    "User ID": "308,192",
+    "Industry": "Industrial Goods",
+    "CCC": "108.6177648"
+  },
+  {
+    "User ID": "311,151",
+    "Industry": "Textiles & Apparel",
+    "CCC": "163.5165373"
+  },
+  {
+    "User ID": "306,284",
+    "Industry": "Textiles & Apparel",
+    "CCC": "197.0327686"
+  },
+  {
+    "User ID": "303,483",
+    "Industry": "Textiles & Apparel",
+    "CCC": "174.6262909"
+  },
+  {
+    "User ID": "307,964",
+    "Industry": "Consumer - Others",
+    "CCC": "72.24468895"
+  },
+  {
+    "User ID": "302,241",
+    "Industry": "Consumer - Others",
+    "CCC": "68.07304565"
+  },
+  {
+    "User ID": "305,518",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "32.03364826"
+  },
+  {
+    "User ID": "302,588",
+    "Industry": "Food - Animal Products",
+    "CCC": "70.2059336"
+  },
+  {
+    "User ID": "297,447",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "62.51426293"
+  },
+  {
+    "User ID": "281,294",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "74.9567092"
+  },
+  {
+    "User ID": "294,652",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "9.851117099"
+  },
+  {
+    "User ID": "301,410",
+    "Industry": "Industrial Goods",
+    "CCC": "104.3963254"
+  },
+  {
+    "User ID": "295,057",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "88.5267528"
+  },
+  {
+    "User ID": "274,096",
+    "Industry": "Materials - Others",
+    "CCC": "669.4193122"
+  },
+  {
+    "User ID": "289,984",
+    "Industry": "Industrial Goods",
+    "CCC": "89.39320213"
+  },
+  {
+    "User ID": "284,774",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "65.01249223"
+  },
+  {
+    "User ID": "298,976",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "118.8040476"
+  },
+  {
+    "User ID": "284,894",
+    "Industry": "Textiles & Apparel",
+    "CCC": "67.02629215"
+  },
+  {
+    "User ID": "272,549",
+    "Industry": "Textiles & Apparel",
+    "CCC": "293.2766651"
+  },
+  {
+    "User ID": "279,783",
+    "Industry": "Electronics",
+    "CCC": "78.0042469"
+  },
+  {
+    "User ID": "259,507",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "60.53067578"
+  },
+  {
+    "User ID": "283,087",
+    "Industry": "Construction",
+    "CCC": "63.56149921"
+  },
+  {
+    "User ID": "274,485",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "-26.13929835"
+  },
+  {
+    "User ID": "276,003",
+    "Industry": "Consumer - Grocery",
+    "CCC": "18.23607206"
+  },
+  {
+    "User ID": "286,797",
+    "Industry": "Textiles & Apparel",
+    "CCC": "205.2349396"
+  },
+  {
+    "User ID": "195,162",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "58.10740418"
+  },
+  {
+    "User ID": "288,174",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "39.30764695"
+  },
+  {
+    "User ID": "286,621",
+    "Industry": "Consumer - Grocery",
+    "CCC": "313.3215449"
+  },
+  {
+    "User ID": "288,326",
+    "Industry": "Consumer - Others",
+    "CCC": "57.27785317"
+  },
+  {
+    "User ID": "288,828",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "64.46758881"
+  },
+  {
+    "User ID": "288,589",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "105.1116746"
+  },
+  {
+    "User ID": "288,078",
+    "Industry": "Industrial Goods",
+    "CCC": "88.89433563"
+  },
+  {
+    "User ID": "286,752",
+    "Industry": "Textiles & Apparel",
+    "CCC": "425.13173"
+  },
+  {
+    "User ID": "281,444",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "160.8253403"
+  },
+  {
+    "User ID": "282,242",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "67.68204088"
+  },
+  {
+    "User ID": "284,617",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "-0.427124007"
+  },
+  {
+    "User ID": "281,212",
+    "Industry": "Industrial Goods",
+    "CCC": "205.5398882"
+  },
+  {
+    "User ID": "264,675",
+    "Industry": "Food - Animal Products",
+    "CCC": "65.71353873"
+  },
+  {
+    "User ID": "210,370",
+    "Industry": "Industrial Goods",
+    "CCC": "68.29573182"
+  },
+  {
+    "User ID": "267,669",
+    "Industry": "Consumer - Others",
+    "CCC": "98.15420047"
+  },
+  {
+    "User ID": "266,460",
+    "Industry": "Packaged Foods",
+    "CCC": "182.1807942"
+  },
+  {
+    "User ID": "274,149",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "58.2266826"
+  },
+  {
+    "User ID": "272,155",
+    "Industry": "Consumer - Others",
+    "CCC": "136.1289205"
+  },
+  {
+    "User ID": "278,202",
+    "Industry": "Material - Packaging",
+    "CCC": "233.1399302"
+  },
+  {
+    "User ID": "265,959",
+    "Industry": "Textiles & Apparel",
+    "CCC": "5.631903454"
+  },
+  {
+    "User ID": "276,482",
+    "Industry": "Industrial Goods",
+    "CCC": "133.5468853"
+  },
+  {
+    "User ID": "265,858",
+    "Industry": "Consumer - Others",
+    "CCC": "7.331731215"
+  },
+  {
+    "User ID": "269,252",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "-18.68640555"
+  },
+  {
+    "User ID": "274,532",
+    "Industry": "Textiles & Apparel",
+    "CCC": "55.46262235"
+  },
+  {
+    "User ID": "266,669",
+    "Industry": "Other",
+    "CCC": "44.19720808"
+  },
+  {
+    "User ID": "254,211",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "-52.90150967"
+  },
+  {
+    "User ID": "266,221",
+    "Industry": "Consumer - Grocery",
+    "CCC": "135.1597033"
+  },
+  {
+    "User ID": "269,262",
+    "Industry": "Textiles & Apparel",
+    "CCC": "111.8092677"
+  },
+  {
+    "User ID": "271,023",
+    "Industry": "Textiles & Apparel",
+    "CCC": "299.5410397"
+  },
+  {
+    "User ID": "260,283",
+    "Industry": "",
+    "CCC": "100.3131317"
+  },
+  {
+    "User ID": "262,062",
+    "Industry": "Materials - Others",
+    "CCC": "35.7942047"
+  },
+  {
+    "User ID": "260,078",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "283.3430005"
+  },
+  {
+    "User ID": "266,477",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "51.46768738"
+  },
+  {
+    "User ID": "269,190",
+    "Industry": "Textiles & Apparel",
+    "CCC": "-3.161796796"
+  },
+  {
+    "User ID": "253,292",
+    "Industry": "Industrial Goods",
+    "CCC": "221.5470699"
+  },
+  {
+    "User ID": "269,261",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "172.3302751"
+  },
+  {
+    "User ID": "268,199",
+    "Industry": "Textiles & Apparel",
+    "CCC": "61.55258855"
+  },
+  {
+    "User ID": "257,842",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "93.56573557"
+  },
+  {
+    "User ID": "265,971",
+    "Industry": "Construction",
+    "CCC": "134.8867779"
+  },
+  {
+    "User ID": "263,628",
+    "Industry": "Consumer - Others",
+    "CCC": "73.21690662"
+  },
+  {
+    "User ID": "258,130",
+    "Industry": "Food - Plant Products",
+    "CCC": "56.19440229"
+  },
+  {
+    "User ID": "229,529",
+    "Industry": "Materials - Others",
+    "CCC": "50.39406243"
+  },
+  {
+    "User ID": "260,159",
+    "Industry": "Consumer - Others",
+    "CCC": "63.62745324"
+  },
+  {
+    "User ID": "262,319",
+    "Industry": "Consumer - Grocery",
+    "CCC": "168.4493235"
+  },
+  {
+    "User ID": "264,553",
+    "Industry": "Textiles & Apparel",
+    "CCC": "343.8420262"
+  },
+  {
+    "User ID": "261,926",
+    "Industry": "",
+    "CCC": "95.42767165"
+  },
+  {
+    "User ID": "260,365",
+    "Industry": "Textiles & Apparel",
+    "CCC": "157.5807142"
+  },
+  {
+    "User ID": "233,937",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "75.3231413"
+  },
+  {
+    "User ID": "254,368",
+    "Industry": "Construction",
+    "CCC": "-156.6341274"
+  },
+  {
+    "User ID": "258,190",
+    "Industry": "Textiles & Apparel",
+    "CCC": "123.3516862"
+  },
+  {
+    "User ID": "247,113",
+    "Industry": "Packaged Foods",
+    "CCC": "44.96579085"
+  },
+  {
+    "User ID": "243,072",
+    "Industry": "Food - Animal Products",
+    "CCC": "57.2169181"
+  },
+  {
+    "User ID": "254,688",
+    "Industry": "Textiles & Apparel",
+    "CCC": "104.1336123"
+  },
+  {
+    "User ID": "251,773",
+    "Industry": "Textiles & Apparel",
+    "CCC": "47.6362672"
+  },
+  {
+    "User ID": "253,291",
+    "Industry": "Electronics",
+    "CCC": "91.95650255"
+  },
+  {
+    "User ID": "216,659",
+    "Industry": "Other",
+    "CCC": "111.6194093"
+  },
+  {
+    "User ID": "245,934",
+    "Industry": "Other",
+    "CCC": "180.2202591"
+  },
+  {
+    "User ID": "228,752",
+    "Industry": "Consumer - Others",
+    "CCC": "225.9722726"
+  },
+  {
+    "User ID": "241,900",
+    "Industry": "Food - Animal Products",
+    "CCC": "104.5862603"
+  },
+  {
+    "User ID": "251,427",
+    "Industry": "Electronics",
+    "CCC": "8.100566395"
+  },
+  {
+    "User ID": "246,731",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "218.2731564"
+  },
+  {
+    "User ID": "246,563",
+    "Industry": "Packaged Foods",
+    "CCC": "106.3887572"
+  },
+  {
+    "User ID": "245,221",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "69.92345133"
+  },
+  {
+    "User ID": "245,219",
+    "Industry": "Materials - Others",
+    "CCC": "0.472948116"
+  },
+  {
+    "User ID": "246,562",
+    "Industry": "Electronics",
+    "CCC": "136.8395854"
+  },
+  {
+    "User ID": "214,458",
+    "Industry": "Consumer - Others",
+    "CCC": "204.2620465"
+  },
+  {
+    "User ID": "243,885",
+    "Industry": "Packaged Foods",
+    "CCC": "92.16801417"
+  },
+  {
+    "User ID": "225,834",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "56.01182007"
+  },
+  {
+    "User ID": "245,222",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "104.7395295"
+  },
+  {
+    "User ID": "245,429",
+    "Industry": "Packaged Foods",
+    "CCC": "121.8287325"
+  },
+  {
+    "User ID": "245,236",
+    "Industry": "Construction",
+    "CCC": "161.3569619"
+  },
+  {
+    "User ID": "222,161",
+    "Industry": "Construction",
+    "CCC": "-96.65477807"
+  },
+  {
+    "User ID": "238,608",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "60.42347727"
+  },
+  {
+    "User ID": "241,749",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "136.555043"
+  },
+  {
+    "User ID": "241,453",
+    "Industry": "Textiles & Apparel",
+    "CCC": "245.5233399"
+  },
+  {
+    "User ID": "207,471",
+    "Industry": "",
+    "CCC": "21.51058836"
+  },
+  {
+    "User ID": "241,451",
+    "Industry": "Construction",
+    "CCC": "135.7328709"
+  },
+  {
+    "User ID": "229,024",
+    "Industry": "Industrial Goods",
+    "CCC": "178.8152168"
+  },
+  {
+    "User ID": "233,936",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "84.0394907"
+  },
+  {
+    "User ID": "238,610",
+    "Industry": "Textiles & Apparel",
+    "CCC": "240.1215009"
+  },
+  {
+    "User ID": "231,775",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "65.84969745"
+  },
+  {
+    "User ID": "237,634",
+    "Industry": "Consumer - Grocery",
+    "CCC": "56.4284794"
+  },
+  {
+    "User ID": "215,093",
+    "Industry": "Food - Animal Products",
+    "CCC": "41.94531321"
+  },
+  {
+    "User ID": "238,609",
+    "Industry": "Industrial Goods",
+    "CCC": "337.9208049"
+  },
+  {
+    "User ID": "234,951",
+    "Industry": "Food - Animal Products",
+    "CCC": "170.0451917"
+  },
+  {
+    "User ID": "216,318",
+    "Industry": "Consumer - Others",
+    "CCC": "112.4916613"
+  },
+  {
+    "User ID": "231,495",
+    "Industry": "",
+    "CCC": "-205.4449698"
+  },
+  {
+    "User ID": "231,104",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "103.8671019"
+  },
+  {
+    "User ID": "230,833",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "45.13227213"
+  },
+  {
+    "User ID": "218,335",
+    "Industry": "Textiles & Apparel",
+    "CCC": "188.8180107"
+  },
+  {
+    "User ID": "206,933",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "78.78103246"
+  },
+  {
+    "User ID": "225,914",
+    "Industry": "Food - Plant Products",
+    "CCC": "76.91253204"
+  },
+  {
+    "User ID": "233,693",
+    "Industry": "Material - Packaging",
+    "CCC": "64.33813779"
+  },
+  {
+    "User ID": "234,926",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "106.8400351"
+  },
+  {
+    "User ID": "233,189",
+    "Industry": "Food - Plant Products",
+    "CCC": "82.04606013"
+  },
+  {
+    "User ID": "229,265",
+    "Industry": "Electronics",
+    "CCC": "80.80172442"
+  },
+  {
+    "User ID": "231,837",
+    "Industry": "Textiles & Apparel",
+    "CCC": "1349.888017"
+  },
+  {
+    "User ID": "225,836",
+    "Industry": "Packaged Foods",
+    "CCC": "121.0729072"
+  },
+  {
+    "User ID": "231,484",
+    "Industry": "Food - Plant Products",
+    "CCC": "3.478624528"
+  },
+  {
+    "User ID": "229,272",
+    "Industry": "Consumer Discretionary - Toys",
+    "CCC": "158.1774388"
+  },
+  {
+    "User ID": "225,432",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "215.8533576"
+  },
+  {
+    "User ID": "219,464",
+    "Industry": "Textiles & Apparel",
+    "CCC": "4.852372132"
+  },
+  {
+    "User ID": "225,832",
+    "Industry": "Industrial Goods",
+    "CCC": "458.8013488"
+  },
+  {
+    "User ID": "213,884",
+    "Industry": "Industrial Goods",
+    "CCC": "-64.4641072"
+  },
+  {
+    "User ID": "206,939",
+    "Industry": "Materials - Others",
+    "CCC": "2.83650729"
+  },
+  {
+    "User ID": "219,672",
+    "Industry": "",
+    "CCC": "62.25789834"
+  },
+  {
+    "User ID": "224,825",
+    "Industry": "Textiles & Apparel",
+    "CCC": "213.2974413"
+  },
+  {
+    "User ID": "214,982",
+    "Industry": "Electronics",
+    "CCC": "115.5934567"
+  },
+  {
+    "User ID": "223,828",
+    "Industry": "Material - Packaging",
+    "CCC": "26.25329871"
+  },
+  {
+    "User ID": "208,014",
+    "Industry": "Textiles & Apparel",
+    "CCC": "142.1038602"
+  },
+  {
+    "User ID": "217,431",
+    "Industry": "Industrial Goods",
+    "CCC": "101.5967847"
+  },
+  {
+    "User ID": "214,981",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "38.71151268"
+  },
+  {
+    "User ID": "208,374",
+    "Industry": "Food - Animal Products",
+    "CCC": "129.0851074"
+  },
+  {
+    "User ID": "205,844",
+    "Industry": "",
+    "CCC": "39.5723327"
+  },
+  {
+    "User ID": "215,561",
+    "Industry": "Packaged Foods",
+    "CCC": "68.06074089"
+  },
+  {
+    "User ID": "209,457",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "114.2468794"
+  },
+  {
+    "User ID": "209,460",
+    "Industry": "Consumer - Others",
+    "CCC": "104.3804321"
+  },
+  {
+    "User ID": "209,028",
+    "Industry": "Electronics",
+    "CCC": "70.47061939"
+  },
+  {
+    "User ID": "213,816",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "7.189059723"
+  },
+  {
+    "User ID": "212,579",
+    "Industry": "Material - Packaging",
+    "CCC": "37.76595381"
+  },
+  {
+    "User ID": "214,459",
+    "Industry": "Consumer - Others",
+    "CCC": "234.0032727"
+  },
+  {
+    "User ID": "214,519",
+    "Industry": "",
+    "CCC": "63.27960532"
+  },
+  {
+    "User ID": "211,744",
+    "Industry": "",
+    "CCC": "48.92766408"
+  },
+  {
+    "User ID": "213,817",
+    "Industry": "Other",
+    "CCC": "126.7651183"
+  },
+  {
+    "User ID": "213,072",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "208,615",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "77.3046148"
+  },
+  {
+    "User ID": "213,798",
+    "Industry": "Industrial Goods",
+    "CCC": "104.8056294"
+  },
+  {
+    "User ID": "213,352",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "106.9125585"
+  },
+  {
+    "User ID": "209,987",
+    "Industry": "Electronics",
+    "CCC": "34.31277954"
+  },
+  {
+    "User ID": "204,965",
+    "Industry": "Materials - Others",
+    "CCC": "247.855186"
+  },
+  {
+    "User ID": "205,142",
+    "Industry": "Food - Animal Products",
+    "CCC": "121.1264202"
+  },
+  {
+    "User ID": "210,704",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "36.8856766"
+  },
+  {
+    "User ID": "207,552",
+    "Industry": "Textiles & Apparel",
+    "CCC": "33.4799774"
+  },
+  {
+    "User ID": "206,161",
+    "Industry": "Materials - Others",
+    "CCC": ""
+  },
+  {
+    "User ID": "206,436",
+    "Industry": "Consumer - Grocery",
+    "CCC": "-7.759871803"
+  },
+  {
+    "User ID": "209,989",
+    "Industry": "Consumer - Grocery",
+    "CCC": "82.02935928"
+  },
+  {
+    "User ID": "205,638",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "72.58691908"
+  },
+  {
+    "User ID": "209,521",
+    "Industry": "Food - Plant Products",
+    "CCC": "58.94023546"
+  },
+  {
+    "User ID": "205,146",
+    "Industry": "",
+    "CCC": "10.34598534"
+  },
+  {
+    "User ID": "205,606",
+    "Industry": "",
+    "CCC": "353.2924008"
+  },
+  {
+    "User ID": "208,076",
+    "Industry": "Consumer - Others",
+    "CCC": "368.3044475"
+  },
+  {
+    "User ID": "207,736",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "206,215",
+    "Industry": "Consumer - Grocery",
+    "CCC": "26.77168244"
+  },
+  {
+    "User ID": "205,423",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "205,383",
+    "Industry": "Electronics",
+    "CCC": "311.9741561"
+  },
+  {
+    "User ID": "204,972",
+    "Industry": "Consumer - Others",
+    "CCC": "85.27877016"
+  },
+  {
+    "User ID": "205,202",
+    "Industry": "Food - Animal Products",
+    "CCC": "37.88217647"
+  },
+  {
+    "User ID": "205,161",
+    "Industry": "Consumer - Others",
+    "CCC": "223.5825946"
+  },
+  {
+    "User ID": "204,587",
+    "Industry": "Materials - Others",
+    "CCC": "169.3529287"
+  },
+  {
+    "User ID": "204,694",
+    "Industry": "",
+    "CCC": "152.0356853"
+  },
+  {
+    "User ID": "204,367",
+    "Industry": "Consumer - Others",
+    "CCC": "30.37626934"
+  },
+  {
+    "User ID": "204,216",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "86.43835716"
+  },
+  {
+    "User ID": "202,875",
+    "Industry": "Textiles & Apparel",
+    "CCC": "162.2686991"
+  },
+  {
+    "User ID": "201,011",
+    "Industry": "Construction",
+    "CCC": "78.65336802"
+  },
+  {
+    "User ID": "200,997",
+    "Industry": "Other",
+    "CCC": "124.8079639"
+  },
+  {
+    "User ID": "193,634",
+    "Industry": "Consumer - Grocery",
+    "CCC": "170.354352"
+  },
+  {
+    "User ID": "200,141",
+    "Industry": "",
+    "CCC": "62.36059707"
+  },
+  {
+    "User ID": "199,001",
+    "Industry": "Electronics",
+    "CCC": "246.4405736"
+  },
+  {
+    "User ID": "198,971",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "198,437",
+    "Industry": "Food - Animal Products",
+    "CCC": "221.8752595"
+  },
+  {
+    "User ID": "197,742",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "38.72445965"
+  },
+  {
+    "User ID": "197,774",
+    "Industry": "Consumer - Grocery",
+    "CCC": ""
+  },
+  {
+    "User ID": "197,764",
+    "Industry": "Trader",
+    "CCC": "494.7044214"
+  },
+  {
+    "User ID": "197,254",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "22.69610695"
+  },
+  {
+    "User ID": "197,759",
+    "Industry": "Other",
+    "CCC": "-73.71773301"
+  },
+  {
+    "User ID": "195,717",
+    "Industry": "Textiles & Apparel",
+    "CCC": "98.06237495"
+  },
+  {
+    "User ID": "195,960",
+    "Industry": "NA",
+    "CCC": ""
+  },
+  {
+    "User ID": "193,544",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "283.3002189"
+  },
+  {
+    "User ID": "194,966",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "195,691",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "257.1795712"
+  },
+  {
+    "User ID": "195,177",
+    "Industry": "Consumer - Others",
+    "CCC": "156.3449026"
+  },
+  {
+    "User ID": "194,304",
+    "Industry": "",
+    "CCC": "131.2694507"
+  },
+  {
+    "User ID": "194,682",
+    "Industry": "Textiles & Apparel",
+    "CCC": "283.8110712"
+  },
+  {
+    "User ID": "193,991",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "81.9945167"
+  },
+  {
+    "User ID": "193,739",
+    "Industry": "",
+    "CCC": "-21.61077566"
+  },
+  {
+    "User ID": "193,542",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "193.8383048"
+  },
+  {
+    "User ID": "192,543",
+    "Industry": "",
+    "CCC": "-48.36548112"
+  },
+  {
+    "User ID": "191,884",
+    "Industry": "Consumer - Grocery",
+    "CCC": "39.20727557"
+  },
+  {
+    "User ID": "192,305",
+    "Industry": "",
+    "CCC": "258.7146069"
+  },
+  {
+    "User ID": "191,050",
+    "Industry": "",
+    "CCC": "399.9558767"
+  },
+  {
+    "User ID": "192,066",
+    "Industry": "Electronics",
+    "CCC": "1092.446903"
+  },
+  {
+    "User ID": "189,563",
+    "Industry": "Consumer - Grocery",
+    "CCC": "68.98393566"
+  },
+  {
+    "User ID": "191,249",
+    "Industry": "Materials - Others",
+    "CCC": "203.771584"
+  },
+  {
+    "User ID": "189,788",
+    "Industry": "Trader",
+    "CCC": "194.1783468"
+  },
+  {
+    "User ID": "189,564",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "39.06143095"
+  },
+  {
+    "User ID": "189,483",
+    "Industry": "Packaged Foods",
+    "CCC": "109.5929525"
+  },
+  {
+    "User ID": "188,558",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "184,154",
+    "Industry": "Consumer - Grocery",
+    "CCC": "25.83679163"
+  },
+  {
+    "User ID": "187,752",
+    "Industry": "Consumer Discretionary - Others",
+    "CCC": "63.55485248"
+  },
+  {
+    "User ID": "186,526",
+    "Industry": "Consumer Discretionary - Other",
+    "CCC": "91.17133076"
+  },
+  {
+    "User ID": "187,560",
+    "Industry": "Materials - Others",
+    "CCC": "121.8849708"
+  },
+  {
+    "User ID": "183,928",
+    "Industry": "",
+    "CCC": "84.36711749"
+  },
+  {
+    "User ID": "184,756",
+    "Industry": "Food - Plant Products",
+    "CCC": "34.31027915"
+  },
+  {
+    "User ID": "184,763",
+    "Industry": "Textiles & Apparel",
+    "CCC": "-151.2655608"
+  },
+  {
+    "User ID": "184,766",
+    "Industry": "",
+    "CCC": "104.2361952"
+  },
+  {
+    "User ID": "184,360",
+    "Industry": "Food - Plant Products",
+    "CCC": "-29.04745567"
+  },
+  {
+    "User ID": "183,356",
+    "Industry": "NA",
+    "CCC": "165.1065534"
+  },
+  {
+    "User ID": "183,726",
+    "Industry": "",
+    "CCC": "44.94403104"
+  },
+  {
+    "User ID": "180,265",
+    "Industry": "Industrial Goods",
+    "CCC": "105.3106309"
+  },
+  {
+    "User ID": "181,930",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "181,924",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "180,269",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "165,028",
+    "Industry": "Consumer Discretionary - Home Furnishing",
+    "CCC": "50.23269978"
+  },
+  {
+    "User ID": "177,744",
+    "Industry": "Industrial Goods",
+    "CCC": "2.88540033"
+  },
+  {
+    "User ID": "172,307",
+    "Industry": "Construction",
+    "CCC": "162.4110965"
+  },
+  {
+    "User ID": "177,742",
+    "Industry": "Textiles & Apparel",
+    "CCC": "141.0133455"
+  },
+  {
+    "User ID": "180,575",
+    "Industry": "Consumer - Grocery",
+    "CCC": "177.8382695"
+  },
+  {
+    "User ID": "177,747",
+    "Industry": "Consumer - Others",
+    "CCC": "105.1662694"
+  },
+  {
+    "User ID": "170,974",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "165,040",
+    "Industry": "Food - Plant Products",
+    "CCC": "450.2567943"
+  },
+  {
+    "User ID": "165,046",
+    "Industry": "Consumer - Grocery",
+    "CCC": "33.00528882"
+  },
+  {
+    "User ID": "165,042",
+    "Industry": "Consumer - Grocery",
+    "CCC": "-9.357016791"
+  },
+  {
+    "User ID": "167,347",
+    "Industry": "",
+    "CCC": "230.4642967"
+  },
+  {
+    "User ID": "166,917",
+    "Industry": "Construction",
+    "CCC": "149.5267838"
+  },
+  {
+    "User ID": "165,045",
+    "Industry": "Materials - Others",
+    "CCC": "145.5288935"
+  },
+  {
+    "User ID": "165,032",
+    "Industry": "Packaged Foods",
+    "CCC": "165.4382869"
+  },
+  {
+    "User ID": "165,043",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "165,039",
+    "Industry": "",
+    "CCC": "39.75222534"
+  },
+  {
+    "User ID": "165,041",
+    "Industry": "Industrial Goods",
+    "CCC": "160.8423343"
+  },
+  {
+    "User ID": "165,037",
+    "Industry": "Other",
+    "CCC": "17.66102949"
+  },
+  {
+    "User ID": "165,159",
+    "Industry": "",
+    "CCC": "31.48515628"
+  },
+  {
+    "User ID": "165,038",
+    "Industry": "Materials - Others",
+    "CCC": "148.482188"
+  },
+  {
+    "User ID": "165,036",
+    "Industry": "Industrial Goods",
+    "CCC": "169.5701777"
+  },
+  {
+    "User ID": "165,035",
+    "Industry": "Food - Animal Products",
+    "CCC": "109.0535718"
+  },
+  {
+    "User ID": "165,031",
+    "Industry": "Packaged Foods",
+    "CCC": "274.9833078"
+  },
+  {
+    "User ID": "165,033",
+    "Industry": "Food - Plant Products",
+    "CCC": "35.01288896"
+  },
+  {
+    "User ID": "165,050",
+    "Industry": "",
+    "CCC": "31.70249276"
+  },
+  {
+    "User ID": "165,160",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "165,029",
+    "Industry": "Food - Animal Products",
+    "CCC": "188.6993734"
+  },
+  {
+    "User ID": "165,025",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "165,027",
+    "Industry": "Consumer - Grocery",
+    "CCC": "327.2083248"
+  },
+  {
+    "User ID": "165,024",
+    "Industry": "Consumer - Grocery",
+    "CCC": "56.02475537"
+  },
+  {
+    "User ID": "165,026",
+    "Industry": "Packaged Foods",
+    "CCC": "220.7546604"
+  },
+  {
+    "User ID": "165,022",
+    "Industry": "Food - Animal Products",
+    "CCC": "69.51748938"
+  },
+  {
+    "User ID": "165,049",
+    "Industry": "",
+    "CCC": ""
+  },
+  {
+    "User ID": "165,047",
+    "Industry": "",
+    "CCC": "48.59836846"
+  },
+  {
+    "User ID": "165,023",
+    "Industry": "Consumer - Grocery",
+    "CCC": "92.89783341"
+  },
+  {
+    "User ID": "165,016",
+    "Industry": "Food - Animal Products",
+    "CCC": "161.613432"
+  },
+  {
+    "User ID": "165,015",
+    "Industry": "Food - Plant Products",
+    "CCC": "213.8153175"
+  },
+  {
+    "User ID": "165,012",
+    "Industry": "",
+    "CCC": "39.75536918"
+  },
+  {
+    "User ID": "165,010",
+    "Industry": "Food - Animal Products",
+    "CCC": "112.1452337"
+  },
+  {
+    "User ID": "165,013",
+    "Industry": "Food - Plant Products",
+    "CCC": "162.2441022"
+  },
+  {
+    "User ID": "165,011",
+    "Industry": "Food - Animal Products",
+    "CCC": "75.04851665"
+  }
+]

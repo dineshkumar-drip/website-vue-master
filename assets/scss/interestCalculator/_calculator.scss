@@ -1,0 +1,56 @@
+.page-interest-calculator {
+  padding: 8em 0 3em;
+
+  table {
+    font-size: 1.1em;
+    td {
+      &:first-child {
+        width: 55%;
+      }
+
+      &:nth-child(2) {
+        width: 25%;
+      }
+
+      &.has-input {
+        padding: 0;
+        position: relative;
+
+        input {
+          width: 100%;
+          padding: 0.75rem;
+          border: 0;
+          box-shadow: none;
+          font-size: 1.1em;
+          color: blue;
+        }
+
+        .icon {
+          position: absolute;
+          right: 5px;
+          top: 0;
+          bottom: 0;
+          margin: auto 0;
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
+.page-pitch-calculator {
+  padding-top: 5em;
+}
+
+@include media-breakpoint-down(sm) {
+  .page-interest-calculator {
+    table {
+      font-size: 0.9em;
+
+      td {
+        input {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+}

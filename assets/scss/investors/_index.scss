@@ -1,0 +1,201 @@
+@import './jumbotron';
+@import './benefits';
+@import './conclusion';
+@import './advantages';
+
+.investor-banner {
+  background: url('~/assets/images/investors/bg2.png');
+  background-size: cover;
+  padding-bottom: 5rem;
+
+  .banner-title {
+    margin-top: 5rem;
+    color: white;
+    font-family: $investor-font-family;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.53;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+
+  .banner-cta {
+    margin-top: 2.5rem;
+    font-family: $global-font;
+    font-size: 1rem;
+    padding: 0.5em 2.3em;
+  }
+}
+
+.our-investors {
+  background-color: $investor-grey;
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+
+  .investor-card {
+    width: 100%;
+    height: 8rem;
+  }
+}
+
+.identity-title {
+  font-family: $investor-font-family;
+  font-size: 2.125rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: $investor-green;
+  margin-bottom: 1.25rem;
+}
+
+.identity-text {
+  font-family: $investor-font-family;
+  font-size: 1.125rem;
+  line-height: 1.56;
+  letter-spacing: 0.5px;
+  color: $investor-black;
+}
+
+.investor-section-title {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-family: $investor-font-family;
+  font-size: 2.125rem;
+  font-weight: 500;
+  letter-spacing: 1.06px;
+  text-align: center;
+  color: $investor-green;
+}
+
+.investor-section-desc {
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 2rem;
+  font-family: $investor-font-family;
+  text-align: center;
+  color: $investor-black;
+}
+
+.footer-text {
+  font-family: $investor-font-family;
+  font-size: 0.75rem;
+  line-height: 1.58;
+  letter-spacing: 0.5px;
+  color: $investor-black;
+}
+
+.common-cta {
+  border-radius: 5px;
+  background-color: $investor-green;
+  font-family: $investor-poppins;
+  font-size: 0.875rem;
+  color: $investor-grey;
+  letter-spacing: 0.5px;
+}
+
+.email-cta {
+  text-transform: lowercase !important;
+}
+.add-cta {
+  text-transform: capitalize !important;
+}
+
+.title-intro {
+  font-family: $investor-font-family;
+  font-size: 2.125rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: $investor-black;
+  margin-bottom: 4rem;
+}
+
+.advantage-title {
+  font-family: $investor-font-family;
+  font-size: 2.125rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: $investor-green;
+  margin-bottom: 3rem;
+}
+
+.benefit-title {
+  font-family: $investor-font-family;
+  font-size: 2.125rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: $investor-green;
+  margin-bottom: 1.25rem;
+}
+
+.fact-number {
+  font-family: $investor-poppins;
+  font-size: 1.875rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  color: $investor-black;
+}
+
+@media (max-width: 575px) {
+  .investor-banner {
+    .banner-title {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
+
+    .banner-cta {
+      margin-top: 1rem;
+      font-size: 1rem;
+      padding: 0.5em 4.2em;
+    }
+  }
+  .advantage-title {
+    font-size: 1.5rem;
+  }
+  .benefit-title {
+    font-size: 1.5rem;
+  }
+  .identity-title {
+    font-size: 1.5rem;
+  }
+  .fact-number {
+    font-size: 1.5rem;
+  }
+}
+
+.test-title {
+  font-family: $investor-font-family;
+  font-size: 2.125rem;
+  letter-spacing: 0.5px;
+  color: $investor-green;
+  margin-bottom: 4rem;
+}
+
+.form-title {
+  font-family: $investor-font-family;
+  font-size: 2.125rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: $investor-black;
+  margin-top: 2.5rem;
+}
+
+@include media-breakpoint-down(sm) {
+  .title-intro {
+    font-size: 1.5rem;
+  }
+  .form-title {
+    font-size: 1.5rem;
+  }
+  .test-title {
+    font-size: 1.5rem;
+  }
+
+  .investor-section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-conclusion {
+    padding-top: 0;
+  }
+}

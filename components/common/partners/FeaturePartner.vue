@@ -1,0 +1,54 @@
+<template>
+  <page-section section-class="section-news">
+    <b-container fluid>
+      <heading :text="dictionary.title" center />
+      <b-row class="mt-5">
+        <b-col
+          v-for="item in dictionary.items"
+          :key="item"
+          :md="4"
+          class="feature-values d-flex align-items-center justify-content-center justify-content-md-start"
+        >
+          <font-awesome-icon
+            class="mr-3 text-primary"
+            :icon="['fa', 'check']"
+          />
+          <span class="font-weight-bold text-secondary">{{ item }}</span>
+        </b-col>
+      </b-row>
+    </b-container>
+  </page-section>
+</template>
+<script>
+import Heading from '~/components/common/ImpoExpo/Heading'
+import PageSection from '../../PageSection'
+import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
+
+export default {
+  props: {
+    comp: {
+      type: String,
+      default: 'feature'
+    }
+  },
+  data() {
+    return {
+      dictionary: this.$t('pages.channelPartner.featuredPartners')
+    }
+  },
+  components: {
+    PageSection,
+    Heading,
+    FontAwesomeIcon
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+@import '~bootstrap/scss/mixins';
+@import '~assets/scss/variables';
+.feature-values {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+</style>

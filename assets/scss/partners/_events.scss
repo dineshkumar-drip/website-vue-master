@@ -1,0 +1,37 @@
+.partner-page-container {
+  .partner-events-section {
+    padding: 5em 0 3em;
+    background: $light-background;
+
+    .content-section {
+      margin: 2em 0;
+
+      .card {
+        .card-title {
+          position: relative;
+        }
+        .card-date {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .modal-header {
+      padding-bottom: 10px;
+      border: 0;
+    }
+    .modal-header,
+    .modal-body {
+      padding: 30px;
+    }
+
+    .card-title {
+      margin-bottom: 0.5rem;
+    }
+
+    .card-subtitle {
+      font-family: $font-family-sans-serif;
+      font-size: 0.75rem;
+    }
+  }
+}

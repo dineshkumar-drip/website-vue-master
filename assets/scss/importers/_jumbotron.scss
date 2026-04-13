@@ -1,0 +1,55 @@
+.importers-page-container {
+  overflow: hidden;
+
+  .jumbotron {
+    background-image: url('~/assets/images/importers/importers-page-revised.jpg');
+    background-position: 25%;
+
+    h1 {
+      margin-top: 16vh;
+    }
+
+    .display-3 {
+      font-size: 24px;
+    }
+
+    .contact-form {
+      .card-cta {
+        margin-top: 50px;
+      }
+
+      .applied {
+        p {
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .importers-page-container {
+    overflow: hidden;
+    .jumbotron {
+      background-position: 50% 20%;
+      background-attachment: fixed;
+      background-size: cover;
+
+      .display-3 {
+        font-size: 44px;
+      }
+
+      .contact-form {
+        .card-cta {
+          margin-top: 100px;
+
+          .card-title {
+            font-size: 1.2em;
+            font-family: $font-family-sans-serif;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

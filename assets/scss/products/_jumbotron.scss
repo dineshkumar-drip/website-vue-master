@@ -1,0 +1,116 @@
+.section-products-main {
+  .jumbotron {
+    background-image: url('~/assets/images/product/product-jumbotron-background.png');
+    min-height: 70vh;
+    background-color: $product-jumbotron;
+
+    .jumbotron-mainheading {
+      font-size: 2.75rem;
+      color: $secondary;
+    }
+
+    .jumbotron-subheading {
+      font-size: 1.25rem;
+      color: $secondary;
+      margin-top: 1.5rem;
+      font-weight: normal;
+      margin-bottom: 1.5rem;
+    }
+
+    &:before {
+      background: transparent;
+    }
+    &.es {
+      background-image: url('~/assets/images/product/product-mx-jumbotron-background.jpg');
+      &.domestic {
+        background-image: url('~/assets/images/product/product-mx-domestic-jumbotron-background.png');
+      }
+    }
+
+    &.us {
+      background-image: url('~/assets/images/product/product-us-jumbotron-background.jpg');
+    }
+
+    background-size: auto;
+    background-position: center right;
+
+    .j-desc {
+      height: 9em;
+    }
+
+    .lead {
+      font-size: 1rem;
+    }
+
+    .desc {
+      &::before {
+        content: '-';
+      }
+    }
+  }
+
+  .main-hero-list {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .jumbotron-global {
+    .jumbotron-mainheading {
+      color: white;
+    }
+
+    .jumbotron-subheading {
+      color: white;
+    }
+  }
+}
+@include media-breakpoint-down(lg) {
+  .section-products-main {
+    .jumbotron {
+      background-size: 21rem;
+    }
+    .jumbotron.investors {
+      background-size: 27rem;
+    }
+  }
+}
+@include media-breakpoint-down(md) {
+  .section-products-main {
+    .jumbotron {
+      min-height: auto;
+      background-image: none !important;
+      // min-height: 65vh;
+      .jumbotron-mainheading {
+        font-size: 1.5rem;
+      }
+
+      .jumbotron-subheading {
+        font-size: 1rem;
+      }
+
+      .hero-section {
+        padding: 0;
+
+        .hero-content {
+          .desc {
+            margin: 0;
+
+            .lead {
+              font-size: 1rem;
+            }
+          }
+        }
+
+        &:after,
+        &:before {
+          display: none;
+        }
+      }
+    }
+
+    .jumbotron-global {
+      background-size: cover;
+      background-position: 40% 100%;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.about-container {
+  .jumbotron {
+    min-height: 55vh;
+    background: linear-gradient(rgba(52, 44, 93, 0.7)),
+      url('~/assets/images/about/about-jumbotron.jpg');
+    background-size: cover;
+    background-position: 25% 0%;
+
+    h1 {
+      font-size: 30px;
+      margin-top: 15vh;
+      margin-bottom: 15vh;
+    }
+
+    .jumbotron-icon-wrapper {
+      height: 60px;
+      width: 60px;
+
+      .jumbotron-icon {
+        height: 100%;
+      }
+    }
+
+    &:before {
+      background: transparent;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .about-container {
+    .jumbotron {
+      background-position: 50% 0%;
+
+      h1 {
+        margin-top: 5vh;
+        margin-bottom: 7vh;
+        font-size: 20px;
+      }
+
+      .jumbotron-icon-wrapper {
+        height: 34px;
+        width: 34px;
+      }
+    }
+  }
+}

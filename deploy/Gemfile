@@ -1,0 +1,12 @@
+source 'http://rubygems.org'
+
+group :development do
+  gem 'capistrano', "~> 3.10.1"
+  gem 'capistrano-npm'
+  gem 'rbnacl', '>= 3.2', '< 5.0'
+  gem 'rbnacl-libsodium'
+  gem 'ed25519', '>= 1.2', '< 2.0'
+  gem 'bcrypt_pbkdf', '>= 1.0', '< 2.0'
+  gem 'bcrypt', '>= 3.1.11', '< 4.0'
+  # gem 'capistrano-bundler', '~> 1.1.2'
+end

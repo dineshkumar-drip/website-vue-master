@@ -1,0 +1,15 @@
+@include media-breakpoint-down(sm) {
+  .jumbotron-v2 {
+    .hero-section {
+      padding: 1.5rem;
+      .display-3 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .en-landing-form {
+    .landing-form-title {
+      font-size: 1.5rem;
+    }
+  }
+}

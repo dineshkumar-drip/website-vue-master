@@ -1,0 +1,71 @@
+{
+  "name": "website-vue",
+  "version": "2.0.0",
+  "description": "Nuxt.js 2 project",
+  "author": "Jatin Hariani <jtnh321@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "test-generate": " NUXT_DEFAULT_LOCALE=en WEBSITE_HOST='admin.staging.dripcapital.com' WEBSITE_HOST_MX='staging.dripcapital.mx' npm run generate",
+    "generate": "node --max-old-space-size=1024 node_modules/nuxt/bin/nuxt.js generate && rsync -av dist/ dist/_nuxt",
+    "generate-only": "node --max-old-space-size=1024 node_modules/nuxt/bin/nuxt.js generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "clean": "rm -rf node_modules/.cache .nuxt .cache",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^0.0.22",
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/robots": "^2.0.0",
+    "ajv": "^6.5.0",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.23.1",
+    "contentful": "^6.1.0",
+    "cookie-universal-nuxt": "^2.0.16",
+    "highlight.js": "^9.12.0",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.21",
+    "lozad": "^1.9.0",
+    "marked": "^0.6.2",
+    "moment": "^2.22.2",
+    "nuxt": "^2.14.17",
+    "nuxt-i18n": "^5.12.7",
+    "postcss-calc": "^6.0.1",
+    "qs": "^6.5.2",
+    "sass": "~1.64.2",
+    "sass-loader": "^10.4.1",
+    "v-click-outside": "^3.2.0",
+    "vue-axios": "^2.1.1",
+    "vue-carousel-3d": "^1.0.1",
+    "vue-fontawesome": "0.0.2",
+    "vue-markdown": "^2.2.4",
+    "vue-slick": "^1.1.12",
+    "vue-smooth-scroll": "^1.0.13",
+    "vue-typer": "^1.2.0",
+    "vuelidate": "^0.7.7",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^4.0.0"
+  },
+  "overrides": {
+    "webpack-dev-middleware": "4.3.0"
+  },
+  "engines": {
+    "node": "16.14.2"
+  }
+}

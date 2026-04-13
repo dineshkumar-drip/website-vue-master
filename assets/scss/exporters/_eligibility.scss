@@ -1,0 +1,36 @@
+.section-eligibility {
+  margin-top: -6em;
+
+  .hiw-endline {
+    font-size: 1.67em;
+    color: $secondary;
+    font-style: italic;
+    font-weight: 500;
+    font-family: $font-family-sans-serif;
+  }
+
+  .check-eligibility {
+    a {
+      font-size: 1.3em;
+      margin: 1.3em 0;
+    }
+  }
+
+  .lead {
+    font-size: 1.1em;
+    margin-bottom: 4em;
+    color: $secondary;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .section-eligibility {
+    .hiw-endline {
+      font-size: 1.25em;
+    }
+
+    .lead {
+      font-size: 1em;
+    }
+  }
+}

@@ -1,0 +1,86 @@
+.jumbotron {
+  background-color: $secondary;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // min-height: 100vh;
+  position: relative;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+  &:before {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6) 30%,
+      transparent 70%
+    );
+  }
+
+  .vue-typer-caret-blink {
+    display: none;
+  }
+
+  h1 {
+    margin-top: 25vh;
+  }
+
+  .typed {
+    // to override typer styles
+    color: $white !important;
+  }
+
+  .lead {
+    font-weight: 400;
+    font-size: 18px;
+    list-style: none;
+
+    .desc {
+      &::before {
+        content: '-';
+      }
+    }
+  }
+
+  @keyframes blinker {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+    }
+  }
+
+  .blink {
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+    animation-name: blinker;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+  }
+
+  .slash {
+    margin-bottom: -7px;
+    display: inline-block;
+    width: 30px;
+    height: 0.9em;
+    background: url('~/assets/images/drip-slash.svg') center center;
+    background-size: 2.7em 0.9em;
+    background-repeat: no-repeat;
+  }
+}

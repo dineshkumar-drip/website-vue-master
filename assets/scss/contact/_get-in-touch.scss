@@ -1,0 +1,66 @@
+.section-get-in-touch {
+  padding: 40px 0;
+
+  .map {
+    margin-top: 1.39em;
+    margin-bottom: 1.39em;
+    border: solid 1px $gray-400;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+
+    .map-content {
+      position: absolute;
+      background-color: $secondary;
+      color: $white;
+      text-align: left;
+      padding: 1.5em 1.5em 0.75em;
+      width: 18em;
+      font-size: 0.75em;
+      line-height: 1.4em;
+      top: 2em;
+      left: 2em;
+      box-shadow: 0 0.22em 0.56em rgba(0, 0, 0, 0.15);
+
+      a {
+        font-size: 13.5px;
+        color: $white;
+
+        .slash {
+          margin-bottom: -2px;
+          width: 5px;
+        }
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .section-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .location {
+    font-size: 18px;
+  }
+
+  .icon {
+    img {
+      width: 40%;
+    }
+  }
+}
+@include media-breakpoint-up(md) {
+  .section-get-in-touch {
+    .section-title {
+      font-size: 36px;
+      text-align: left;
+    }
+  }
+}

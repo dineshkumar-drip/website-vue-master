@@ -1,0 +1,104 @@
+$xl-laptop: 2000px;
+$large-laptop: 1440px;
+$laptop: 1280px;
+$large-laptop: 1024px;
+$tablet: 780px;
+$mobile: 360px;
+
+.drip-h1 {
+  font-family: 'Nunito Sans';
+  font-size: 44px !important;
+  font-style: normal;
+  line-height: 60px;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 32px !important;
+    line-height: 42px;
+  }
+}
+.drip-h2 {
+  font-family: 'Nunito Sans';
+  font-size: 32px !important;
+  font-style: normal;
+  line-height: 42px;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 28px !important;
+    line-height: 32px;
+  }
+}
+.drip-h3 {
+  font-family: 'Nunito Sans';
+  font-size: 24px !important;
+  font-style: normal;
+  line-height: normal;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 22px !important;
+    line-height: normal;
+  }
+}
+.drip-h4 {
+  font-family: 'Nunito Sans';
+  font-size: 20px !important;
+  font-style: normal;
+  line-height: normal;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 16px !important;
+    line-height: normal;
+  }
+}
+.drip-caption {
+  font-family: 'Nunito Sans';
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 16px;
+  }
+}
+.drip-body {
+  font-family: 'Nunito Sans';
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 12px;
+  }
+}
+.drip-body-small {
+  font-family: 'Nunito Sans';
+  font-size: 12px;
+  font-style: normal;
+  line-height: normal;
+  @media screen and (max-width: $tablet) {
+    font-size: 10px !important;
+  }
+}
+.drip-label {
+  font-family: 'Nunito Sans';
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+}
+.drip-validation {
+  font-family: 'Nunito Sans';
+  font-size: 10px;
+  font-style: normal;
+  line-height: normal;
+}
+.font-weight-300 {
+  font-weight: 300 !important;
+}
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+.font-weight-700 {
+  font-weight: 700 !important;
+}
+.font-italic {
+  font-style: italic;
+}

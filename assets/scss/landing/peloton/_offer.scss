@@ -1,0 +1,111 @@
+.section-offer {
+  @include media-breakpoint-down(md) {
+    .col-steps {
+      padding-top: 80px;
+      padding-bottom: 50px;
+    }
+    .col-testimonials {
+      border-top: 50px solid $secondary-light;
+      background: $secondary;
+      padding-top: 30px;
+      padding-bottom: 80px;
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: linear-gradient(104deg, $white 50%, $secondary 50%);
+    position: relative;
+    overflow: hidden;
+    &:before {
+      position: absolute;
+      height: 1000px;
+      width: 50px;
+      transform: rotate(14deg);
+      background: $secondary-light;
+      content: ' ';
+      display: block;
+      left: 50%;
+      margin-left: -25px;
+      top: 50%;
+      margin-top: -500px;
+    }
+  }
+
+  .intro-title {
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+
+  .intro-text {
+    margin-bottom: 24px;
+  }
+}
+
+.offer-slider {
+  @include media-breakpoint-down(md) {
+    margin-top: 48px;
+  }
+  blockquote {
+    font-size: 26px;
+    font-style: italic;
+    padding-left: 50px;
+    &:before {
+      background: url('~/assets/images/common/quote-open-2.svg');
+      background-size: cover;
+      height: 50px;
+      width: 50px;
+      margin-left: -50px;
+      content: ' ';
+      display: block;
+    }
+  }
+  cite {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
+    font-style: normal;
+    .location {
+      font-size: 15px;
+      display: block;
+    }
+  }
+  .slick-dots {
+    margin-top: 40px;
+    padding-left: 10px;
+  }
+}
+
+.offer-highlight {
+  height: 48px;
+  width: 48px;
+  background: $primary;
+  display: block;
+  float: left;
+  font-size: 24px;
+  line-height: 24px;
+  padding: 12px 0;
+  border-radius: 24px;
+  margin-right: 12px;
+}
+
+.offer-steps {
+  li {
+    font-size: 15px;
+    margin-bottom: 24px;
+    overflow: hidden;
+  }
+}
+
+.offers-cta {
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+.offer-text {
+  min-height: 48px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

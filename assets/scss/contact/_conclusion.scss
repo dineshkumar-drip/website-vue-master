@@ -1,0 +1,24 @@
+.section-contact-conclusion {
+  padding: 40px 0;
+  background: $light-background;
+  .items-contact {
+    a {
+      margin-top: 25px;
+      width: 100%;
+      font-size: 14px;
+      text-transform: none;
+      padding: 8px 0;
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .section-contact-conclusion {
+    .items-contact {
+      a {
+        width: 75%;
+        font-size: 18px;
+      }
+    }
+  }
+}

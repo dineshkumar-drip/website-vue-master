@@ -1,0 +1,57 @@
+.investors-page-container {
+  .jumbotron {
+    background-image: url('~/assets/images/investors/bg1.jpg');
+    min-height: 55vh;
+    padding-top: 0;
+
+    &:before {
+      background: transparent;
+    }
+  }
+  .display-3 {
+    margin-top: 5em;
+    margin-bottom: 0;
+    min-height: 10.125rem;
+    font-family: $investor-font-family;
+    font-size: 2.125rem;
+    font-weight: bold;
+    line-height: 1.29;
+    letter-spacing: 0.5px;
+  }
+  .lead1 {
+    font-family: $investor-font-family;
+    font-size: 1.625rem;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #a4ffd9;
+    margin-bottom: 2rem;
+    margin-top: 0;
+  }
+  .lead2 {
+    font-family: $investor-font-family;
+    font-size: 1.125rem;
+    letter-spacing: 0.5px;
+    margin-bottom: 3rem;
+  }
+  .cta-invest {
+    background-color: $investor-green;
+    border-radius: 5px;
+    font-family: $investor-font-family;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  @include media-breakpoint-down(md) {
+    .display-3 {
+      font-size: 1.5rem;
+      margin-top: 10rem;
+    }
+    .lead1 {
+      font-size: 1.25rem;
+    }
+    .lead2 {
+      font-size: 1rem;
+    }
+  }
+}

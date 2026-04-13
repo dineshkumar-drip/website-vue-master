@@ -1,0 +1,47 @@
+.section-intro {
+  @include media-breakpoint-up(lg) {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: linear-gradient(104deg, $white 48.5%, $gray-200 50%);
+    position: relative;
+    overflow: hidden;
+    &:before {
+      position: absolute;
+      height: 1000px;
+      width: 50px;
+      transform: rotate(14deg);
+      background: $gray-100;
+      content: ' ';
+      display: block;
+      left: 50%;
+      margin-left: -25px;
+      top: 50%;
+      margin-top: -500px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    .col-lead {
+      padding-top: 80px;
+      padding-bottom: 50px;
+    }
+    .col-chart {
+      border-top: 50px solid $gray-100;
+      background: $gray-200;
+      padding-top: 50px;
+      padding-bottom: 80px;
+    }
+  }
+}
+
+.divided-container {
+  min-height: 200px;
+}
+
+.disclaimer-toggle {
+  cursor: pointer;
+}
+
+.intro-title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,15 @@
+[
+  { "name": "Electronics", "hvalue": "127", "lvalue": "115" },
+  {
+    "name": "Consumer Discretionary",
+    "hvalue": "108",
+    "lvalue": "98"
+  },
+  { "name": "Industrial Goods", "hvalue": "109", "lvalue": "98" },
+  { "name": "Packaged Foods", "hvalue": "153", "lvalue": "138" },
+  { "name": "Food - Animal Products", "hvalue": "105", "lvalue": "95" },
+  { "name": "Food - Plant Products", "hvalue": "89", "lvalue": "80" },
+  { "name": "Other", "hvalue": "81", "lvalue": "73" },
+  { "name": "Materials/Commodities", "hvalue": "147", "lvalue": "133" },
+  { "name": "Textiles & Apparel", "hvalue": "212", "lvalue": "192" }
+]

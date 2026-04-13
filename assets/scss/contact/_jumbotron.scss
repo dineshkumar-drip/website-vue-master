@@ -1,0 +1,37 @@
+.contact-page-container {
+  .jumbotron {
+    background-image: url('~/assets/images/contact/drip-office-new-converted.jpg');
+    background-position: 25%;
+    .display-3 {
+      font-size: 24px;
+    }
+    .contact-form {
+      .card-cta {
+        margin-top: 50px;
+      }
+      .applied {
+        p {
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .contact-page-container {
+    .jumbotron {
+      background-position: 50% 20%;
+      background-attachment: fixed;
+      background-size: 100% auto;
+      .display-3 {
+        font-size: 44px;
+      }
+      .contact-form {
+        .card-cta {
+          margin-top: 100px;
+        }
+      }
+    }
+  }
+}

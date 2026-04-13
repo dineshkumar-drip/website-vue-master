@@ -1,0 +1,126 @@
+.job-opening-success-icon {
+  font-size: 7.5rem;
+  color: $primary;
+  margin-bottom: 1.875rem;
+}
+
+.section-thank-you {
+  padding-top: 12.5rem;
+  padding-bottom: 12.5rem;
+}
+
+.section-faqs {
+  background: $light-background;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.faq-card {
+  flex: 1;
+  margin: 15px; //specific to below margin
+}
+.faq-category {
+  margin-bottom: 2rem;
+}
+
+.faq-list:last-child {
+  border-bottom: 0;
+}
+
+.faq-list {
+  border-bottom: 1px solid #d8d8d8;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+  a {
+    color: $dark;
+    text-decoration: none;
+    &:hover {
+      color: green;
+      text-decoration: none;
+    }
+  }
+}
+
+.section-title {
+  margin-bottom: 3rem;
+}
+
+.section-blog.related-posts {
+  .related-post {
+    .card {
+      border: 1px solid $border-color; // very specific
+    }
+  }
+  .post-top-meta {
+    margin-bottom: 2rem;
+  }
+  .author-thumb {
+    border-radius: 100%;
+    float: left;
+    display: block;
+    margin-right: 1rem;
+    width: 2.625rem;
+    height: 2.625rem;
+  }
+  .author-meta {
+    font-size: 0.75rem;
+    line-height: 0.85rem;
+  }
+}
+
+.section-blog.blog {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  margin-top: 0;
+}
+
+.thank-section-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  font-family: 'Lato';
+}
+
+.faq-category-title {
+  font-size: 1.5rem;
+  font-family: 'Lato';
+}
+
+.section-social {
+  background: $light-background;
+  padding-top: 4.5rems;
+  padding-bottom: 4.5rems;
+}
+
+.related-post {
+  .card {
+    border: 0;
+
+    .card-body {
+      height: 6rem;
+
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.25;
+        font-family: $font-family-sans-serif;
+
+        a {
+          color: $gray-800;
+        }
+      }
+    }
+
+    .card-footer {
+      background: $white;
+      border: 0;
+      padding-bottom: 0;
+      padding-top: 0;
+
+      .author-thumb {
+        width: 2.625rem;
+        height: 2.625rem;
+      }
+    }
+  }
+}

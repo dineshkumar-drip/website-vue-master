@@ -1,0 +1,142 @@
+.section-who-we-are {
+  background: $product-light-blue-background;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  color: $secondary;
+
+  .about-section-title {
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+  }
+
+  .founder-card {
+    .founder-thumbnail-wrapper {
+      width: 100%;
+      height: 100%;
+
+      .founder-thumbnail {
+        width: 70%;
+      }
+    }
+
+    .founder-name-card {
+      .founder-name {
+        color: $secondary;
+        font-size: 2.75rem;
+      }
+
+      .founder-linkedin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.25rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        padding: 0.25rem;
+        background-color: $product-blue-background;
+        font-size: 1rem;
+        transition: all linear 0.2s;
+        &:hover {
+          background: darken($product-blue-background, 20%);
+        }
+      }
+    }
+
+    .founder-title {
+      color: $secondary;
+      font-size: 2rem;
+      font-style: italic;
+    }
+
+    .founder-desc {
+      color: $secondary;
+      width: 90%;
+    }
+  }
+}
+
+.life-at-drip {
+  padding-bottom: 4rem;
+
+  .life-at-drip-slick {
+    .life-drip-image-wrapper {
+      width: 100%;
+
+      .life-drip-image {
+        width: 100%;
+      }
+    }
+
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+      padding-left: 0;
+
+      li {
+        list-style: none;
+
+        button {
+          font-size: 0;
+          color: transparent;
+          background: $product-nav-background;
+          padding: 0;
+          border: 0;
+          outline: none;
+          margin-right: 1rem;
+          width: 12px;
+          height: 12px;
+          border-radius: 6px;
+        }
+
+        &.slick-active {
+          button {
+            background: $dark-blue;
+          }
+        }
+      }
+    }
+  }
+
+  .image-wrapper-vertical {
+    height: 100%;
+    width: 100%;
+
+    .image-life-vertical {
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+    }
+  }
+
+  .banner {
+    margin-top: 30px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .life-at-drip {
+    padding-bottom: 0;
+  }
+
+  .section-who-we-are {
+    .founder-card {
+      .founder-thumbnail-wrapper {
+        .founder-thumbnail {
+          width: 100%;
+        }
+      }
+
+      .founder-name-card {
+        .founder-name {
+          color: $secondary;
+          font-size: 1.25rem;
+        }
+      }
+
+      .founder-title {
+        font-size: 1rem;
+      }
+    }
+  }
+}

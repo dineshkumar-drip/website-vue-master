@@ -1,0 +1,49 @@
+.partner-page-container {
+  .main-navbar {
+    &.bg-transparent {
+      .apply-btn {
+        display: none;
+      }
+    }
+  }
+  .jumbotron {
+    padding: 6rem 2rem;
+    .fieo-main-title {
+      min-height: 150px;
+    }
+  }
+  nav {
+    z-index: 21;
+
+    .partnership-img {
+      padding: 15px 0;
+    }
+
+    .partner-logo {
+      background: $white;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+
+      .nav-link {
+        padding: 3px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .partner-page-container {
+    nav {
+      .partnership-img {
+        padding: 15px 0;
+        margin: 0 auto;
+      }
+
+      .partner-logo {
+        background: $white;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+    }
+  }
+}

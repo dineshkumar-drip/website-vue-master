@@ -1,0 +1,53 @@
+.page-bank-details {
+  font-size: 1.125rem;
+  background-image: url('~/assets/images/common/bank-side-vector.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  font-family: 'Nunito Sans';
+
+  @media (max-width: 1200px) {
+    background: none;
+  }
+
+  .bank-details-container {
+    padding: 8rem 3rem;
+    min-height: 100vh;
+    font-family: 'Nunito Sans';
+    overflow: hidden;
+    @media (max-width: 600px) {
+      padding: 8rem 1rem;
+    }
+  }
+
+  .tabs {
+    ul {
+      li {
+        a {
+          color: $gray-600;
+
+          &:hover {
+            border-color: transparent;
+          }
+
+          &.active {
+            border-color: $gray-300 $gray-300 $white;
+            border-top: solid 3px $primary;
+            font-weight: bold;
+            color: $secondary;
+          }
+        }
+      }
+    }
+  }
+  .para {
+    padding-left: 0.7rem;
+    font-weight: 600;
+  }
+
+  .tab-content {
+    p {
+      margin: 1.5rem 0;
+    }
+  }
+}

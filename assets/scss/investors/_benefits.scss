@@ -1,0 +1,31 @@
+.investors-page-container {
+  .custom-title {
+    margin-left: 2rem;
+  }
+
+  .desc-benefit {
+    font-family: $investor-font-family;
+    font-size: 0.875rem;
+    color: black;
+  }
+  .offer-steps {
+    margin-bottom: 1.5rem;
+    list-style-position: outside;
+  }
+
+  .offer-text {
+    min-height: 3rem;
+    margin-left: 3.75rem;
+    flex-direction: column;
+    font-family: $investor-font-family;
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    color: $investor-black;
+    display: list-item;
+    overflow: visible;
+  }
+}
+
+.divided-container {
+  margin-top: 5rem;
+}

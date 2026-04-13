@@ -1,0 +1,90 @@
+.section-padded {
+  padding: 5rem 0;
+}
+
+.title-slash {
+  &:after {
+    content: ' ';
+    margin-left: -0.28em; // todo: make more reusable with flexible height & width. maybe use em here.
+    margin-bottom: -0.09em;
+    display: inline-block;
+    width: 1em;
+    height: 0.85em;
+    background-image: url('/assets/images/drip-slash.svg');
+    background-repeat: no-repeat;
+  }
+}
+
+.bg-light-gray {
+  background: $gray-100;
+}
+
+.section-features {
+  .benefit-title {
+    font-size: 1.5rem;
+  }
+
+  .feature-content {
+    margin: 2rem 0;
+
+    .section-image-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 0 0 1rem;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.section-home-container {
+  .lead {
+    font-size: 1.125rem;
+    color: $gray-600;
+  }
+
+  .col-lead {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .disclaimer-toggle {
+    cursor: pointer;
+  }
+
+  .intro-title {
+    font-size: 1.875rem;
+    margin-bottom: 1.75rem;
+
+    &.no-slash {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
+
+.en-landing-form {
+  padding: 1rem;
+
+  .landing-form-title {
+    color: $primary;
+    margin-bottom: 2rem;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .section-home-container {
+    .section-home {
+      .col-lead {
+        padding-top: 0;
+        padding-bottom: 3rem;
+      }
+    }
+  }
+}

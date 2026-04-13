@@ -1,0 +1,59 @@
+.page-privacy-policy {
+  .section-privacy {
+    padding: 8em 0 3em;
+    color: $noble-blue-500;
+    text-align: justify;
+
+    h1 {
+      font-family: $headings-font-family;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 2em;
+    }
+
+    h5 {
+      font-family: $font-family-sans-serif;
+
+      &.conclude {
+        font-size: 0.85em;
+      }
+    }
+
+    .lead {
+      font-size: 1.1em;
+    }
+
+    .has-list {
+      ul {
+        &:first-child {
+          padding-left: 0;
+        }
+
+        li {
+          margin-bottom: 1em;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 2em;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .page-terms-of-use {
+    .section-terms {
+      text-align: left;
+
+      h1 {
+        font-size: 1em;
+      }
+
+      .lead {
+        font-size: 1em;
+        text-align: justify;
+      }
+    }
+  }
+}

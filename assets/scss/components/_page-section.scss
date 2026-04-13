@@ -1,0 +1,43 @@
+.section-light {
+  // background: $body-bg;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 50px;
+  &:after {
+    content: ' ';
+    margin-left: -0.28em;
+    margin-bottom: -0.09em;
+    display: inline-block;
+    width: 1em;
+    height: 0.85em;
+    background-image: url('~/assets/images/drip-slash.svg');
+    background-repeat: no-repeat;
+  }
+  &.text-white {
+    &:after {
+      background-image: url('~/assets/images/common/drip-slash-purple.svg');
+    }
+  }
+}
+
+.bank-details-title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0a2e57;
+  margin-bottom: 44px;
+  font-family: 'Nunito Sans';
+  width: fit-content;
+  border-bottom: 4px solid #26b67f;
+}
+
+.bank-details-subtitle {
+  margin: 0;
+  font-size: 24px;
+  color: #0a2e57;
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-family: 'Nunito Sans';
+}

@@ -1,0 +1,54 @@
+.section-home-get-in-touch {
+  padding: 4em 0;
+  background: $light-background;
+
+  .icon {
+    padding: 0 3.5em;
+
+    img {
+      width: 100%;
+
+      &.email {
+        padding: 3.2em 2.65em 0;
+      }
+    }
+
+    a {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .section-home-get-in-touch {
+    .icon {
+      padding: 0;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .section-home-get-in-touch {
+    .icon {
+      padding: 0 7em;
+      margin-bottom: 4em;
+    }
+  }
+}
+@include media-breakpoint-down(xs) {
+  .section-home-get-in-touch {
+    .icon {
+      padding: 0 2em;
+
+      img {
+        padding: 0 3em;
+
+        &.email {
+          padding: 0 4em;
+        }
+      }
+    }
+  }
+}

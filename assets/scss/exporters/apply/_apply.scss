@@ -1,0 +1,28 @@
+.exporters-apply-page-container {
+  padding: 4rem 0 0;
+
+  .exporters-apply {
+    min-height: 70vh;
+  }
+
+  .flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .application-form {
+    .card-cta,
+    .card-body {
+      padding: 0;
+
+      .card-title {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .application-img {
+    margin-top: 6rem;
+  }
+}

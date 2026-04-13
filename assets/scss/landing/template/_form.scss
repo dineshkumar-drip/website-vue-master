@@ -1,0 +1,36 @@
+.landing-form {
+  .card-title {
+    margin-bottom: 30px;
+  }
+
+  .material-label {
+    margin-bottom: 20px;
+  }
+
+  .form-group:nth-child(5) .material-label {
+    margin-bottom: 0;
+  }
+
+  .form-group:nth-child(6) {
+    margin-bottom: 1.75rem;
+  }
+}
+
+.mexico-landing-form {
+  .material-label.empty span {
+    // experimental
+    color: #aaa;
+  }
+}
+
+.landing-page-error {
+  color: $danger;
+  font-size: 12px;
+}
+
+.form-group {
+  margin-bottom: 0.6rem;
+}
+h3 {
+  font-size: 1.5rem;
+}

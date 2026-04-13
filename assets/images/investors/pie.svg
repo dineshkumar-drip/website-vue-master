@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 63.2 63.2"
+	 style="enable-background:new 0 0 63.2 63.2;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#322D59;}
+	.st3{display:inline;opacity:0.2;}
+	.st4{display:inline;opacity:0.44;}
+	.st5{fill:none;stroke:#F2F2F2;stroke-miterlimit:10;}
+	.st6{display:inline;stroke:#F2F2F2;stroke-miterlimit:10;}
+	.st7{fill:#F2F2F2;}
+	.st8{fill:#FFFFFF;}
+	.st9{opacity:0.4;}
+	.st10{opacity:0.5;fill:#73C69C;}
+	.st11{fill:#73C69C;stroke:#73C69C;stroke-width:0.75;}
+	.st12{fill:none;stroke:#F04E37;stroke-miterlimit:10;}
+	.st13{fill:#F04E37;}
+	.st14{fill:#27B67C;}
+	.st15{fill:#73C69C;}
+	.st16{fill:#4D4D4D;}
+	.st17{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st18{fill:#58595B;}
+	.st19{fill:#016D9A;}
+	.st20{opacity:0.4;fill:#FFFFFF;}
+	.st21{fill:none;stroke:#322D59;stroke-miterlimit:10;}
+	.st22{fill:#7770AB;}
+	.st23{fill:none;stroke:#73C69C;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st24{fill:none;stroke:#F04E37;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st25{fill:#F47A5C;}
+	.st26{fill:none;stroke:#322D59;stroke-width:5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st27{fill:#F8A084;}
+	.st28{fill:#A6D8C0;}
+	.st29{fill:#E6E6E6;}
+	.st30{enable-background:new    ;}
+	.st31{fill:none;stroke:#27B67C;stroke-linecap:round;stroke-miterlimit:10;}
+	.st32{fill:#BFE3D3;}
+	.st33{fill:#BFE3D3;stroke:#BFE3D3;stroke-width:0.75;stroke-miterlimit:10;}
+	.st34{fill:none;stroke:#FF931E;stroke-linecap:round;}
+	.st35{fill:none;stroke:#A6D8C0;stroke-linecap:round;}
+	.st36{opacity:0.3;}
+	.st37{fill:none;stroke:#FFFFFF;stroke-width:0.75;}
+	.st38{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-dasharray:3.0029,3.0029;}
+	.st39{fill:none;stroke:#C69C6D;stroke-linecap:round;}
+	.st40{fill:none;stroke:#009245;stroke-linecap:round;}
+	.st41{fill:none;stroke:#FCEE21;stroke-width:3;stroke-linecap:round;}
+	.st42{fill:none;stroke:#FFFFFF;stroke-width:0.75;stroke-linecap:round;}
+	.st43{fill:#5F588B;}
+	.st44{opacity:0.15;fill:none;}
+	.st45{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+	.st46{clip-path:url(#SVGID_4_);}
+	.st47{clip-path:url(#SVGID_6_);}
+</style>
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<g id="Layer_2" class="st0">
+		</g>
+		<g id="Layer_1">
+			<g>
+				<circle class="st15" cx="31.6" cy="31.6" r="31.6"/>
+				<path class="st8" d="M34.4,33.6l18,2.6c-1.2,8.8-8.8,15.6-18,15.6V33.6z M31.6,31.6l13-12.7c-3.3-3.4-7.9-5.5-13-5.5
+					c-10,0-18.2,8.1-18.2,18.2c0,10,8.1,18.2,18.2,18.2V31.6z M55,33.6c0.1-0.8,0.2-1.7,0.2-2.6c0-4.9-2-9.4-5.2-12.7L37,31L55,33.6
+					z"/>
+			</g>
+		</g>
+	</g>
+</switch>
+</svg>

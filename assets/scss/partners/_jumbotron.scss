@@ -1,0 +1,45 @@
+.channel-partner-page-container {
+  .jumbotron {
+    background-image: url('~/assets/images/about/about-jumbotron.jpg');
+    background-position: 25%;
+
+    & > .container-fluid {
+      min-height: 780px;
+    }
+
+    .partner-img {
+      margin-top: 50px;
+
+      img {
+        border-radius: 3px;
+        background: $white;
+        padding: 1.5em 5em;
+      }
+    }
+
+    .display-3 {
+      font-size: 2.2em;
+      line-height: 1.4em;
+    }
+
+    .application-form {
+      .card-cta {
+        margin-top: 50px;
+      }
+
+      .partnership-img {
+        text-align: center;
+        margin-bottom: 3em;
+        img {
+          width: 50%;
+        }
+      }
+
+      .applied {
+        p {
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
