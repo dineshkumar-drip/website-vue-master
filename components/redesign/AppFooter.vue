@@ -72,12 +72,12 @@
           <div class="footer-col">
             <h4 class="footer-col-title">Resources</h4>
             <ul class="footer-links">
-              <li><NuxtLink to="/en-us/finance-guides">Finance Guides</NuxtLink></li>
-              <li><NuxtLink to="/en-us/newsroom">Newsroom</NuxtLink></li>
-              <li><NuxtLink to="/en-us/blog">Blog</NuxtLink></li>
-              <li><NuxtLink to="/en-us/use-cases">Use Cases</NuxtLink></li>
-              <li><NuxtLink to="/en-us/privacy-policy">Privacy Policy</NuxtLink></li>
-              <li><NuxtLink to="/en-us/terms-of-use">Terms of Service</NuxtLink></li>
+              <li><a href="https://www.dripcapital.com/en-us/resources/blog" target="_blank" rel="noopener noreferrer">Blog</a></li>
+              <li><a href="https://www.dripcapital.com/hts-code" target="_blank" rel="noopener noreferrer">HTS Code Lookup</a></li>
+              <li><a href="https://www.dripcapital.com/us-customs-import-duty/" target="_blank" rel="noopener noreferrer">Customs Duty Calculator</a></li>
+              <li><a href="https://www.dripcapital.com/en-us/resources/finance-guides" target="_blank" rel="noopener noreferrer">Glossary</a></li>
+              <li><a href="https://www.dripcapital.com/en-us/resources/finance-guides" target="_blank" rel="noopener noreferrer">Finance Guides</a></li>
+              <li><a href="https://www.dripcapital.com/en-us/resources/mediaroom" target="_blank" rel="noopener noreferrer">Media Room</a></li>
             </ul>
           </div>
         </div>
@@ -91,6 +91,47 @@
           <p class="footer-copy">
             &copy; {{ currentYear }} Drip Capital Inc. All rights reserved.
           </p>
+
+          <!-- Legal Links -->
+          <div class="footer-legal-links">
+            <NuxtLink to="/en-us/privacy-policy">Privacy Policy</NuxtLink>
+            <span class="legal-sep">·</span>
+            <NuxtLink to="/en-us/terms-of-use">Terms of Service</NuxtLink>
+            <span class="legal-sep">·</span>
+            <a href="https://share.hsforms.com/2Iup-aBMESgGd7SH-9zvuQwcwe7e" target="_blank" rel="noopener noreferrer">Opt-out (Marketing emails)</a>
+            <span class="legal-sep">·</span>
+            <a href="https://cwe7e.share.hsforms.com/2T93PVfFCR62PwD-AlPUcBw" target="_blank" rel="noopener noreferrer">Opt-out (AI RoboCalls)</a>
+          </div>
+
+          <!-- Region Selector -->
+          <div class="footer-region" :class="{ open: regionOpen }" @click.stop="toggleRegion">
+            <span class="footer-region-globe">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="2" y1="12" x2="22" y2="12"/>
+                <path d="M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/>
+              </svg>
+            </span>
+            <span class="footer-region-label">{{ currentRegionLabel }}</span>
+            <span class="footer-region-arrow">
+              <svg width="10" height="10" viewBox="0 0 12 12" fill="none">
+                <path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <div class="footer-region-dropdown" v-show="regionOpen" @click.stop>
+              <button
+                v-for="region in regions"
+                :key="region.locale"
+                class="footer-region-option"
+                :class="{ active: $i18n.locale === region.locale }"
+                @click="switchRegion(region.locale)"
+              >
+                <span class="footer-region-flag">{{ region.flag }}</span>
+                <span>{{ region.label }}</span>
+              </button>
+            </div>
+          </div>
+
           <div class="footer-backers">
             <span class="backers-label">Backed by:</span>
             <span class="backer">Accel</span>
@@ -115,12 +156,22 @@
 export default {
   data() {
     return {
-      emailInput: ''
+      emailInput: '',
+      regionOpen: false,
+      regions: [
+        { locale: 'en-us', label: 'USA', flag: '\u{1F1FA}\u{1F1F8}' },
+        { locale: 'en-in', label: 'India', flag: '\u{1F1EE}\u{1F1F3}' },
+        { locale: 'es-mx', label: 'Mexico', flag: '\u{1F1F2}\u{1F1FD}' }
+      ]
     }
   },
   computed: {
     currentYear() {
       return new Date().getFullYear()
+    },
+    currentRegionLabel() {
+      const match = this.regions.find(r => r.locale === this.$i18n.locale)
+      return match ? match.label : 'USA'
     }
   },
   methods: {
@@ -128,7 +179,29 @@ export default {
       if (this.emailInput) {
         this.$router.push('/en-us/contact')
       }
+    },
+    toggleRegion() {
+      this.regionOpen = !this.regionOpen
+    },
+    switchRegion(locale) {
+      this.regionOpen = false
+      if (process.browser) {
+        this.$cookies.set('i18n_locale', locale, { path: '/', maxAge: 60 * 60 * 24 * 7 })
+        this.$router.replace(this.switchLocalePath(locale))
+      }
+    },
+    handleOutsideClick(e) {
+      const el = this.$el.querySelector('.footer-region')
+      if (el && !el.contains(e.target)) {
+        this.regionOpen = false
+      }
     }
+  },
+  mounted() {
+    document.addEventListener('click', this.handleOutsideClick)
+  },
+  beforeDestroy() {
+    document.removeEventListener('click', this.handleOutsideClick)
   }
 }
 </script>
@@ -279,6 +352,123 @@ export default {
   color: rgba(255, 255, 255, 0.40);
 }
 
+/* Legal Links */
+.footer-legal-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.footer-legal-links a {
+  color: rgba(255, 255, 255, 0.44);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-legal-links a:hover {
+  color: var(--green);
+}
+
+.legal-sep {
+  color: rgba(255, 255, 255, 0.24);
+  font-size: 12px;
+}
+
+/* Footer Region Selector */
+.footer-region {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  transition: border-color 0.2s, color 0.2s;
+  white-space: nowrap;
+}
+
+.footer-region:hover,
+.footer-region.open {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.footer-region-globe {
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.footer-region-label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.footer-region-arrow {
+  display: flex;
+  align-items: center;
+  opacity: 0.5;
+  transition: transform 0.2s;
+}
+
+.footer-region.open .footer-region-arrow {
+  transform: rotate(180deg);
+}
+
+.footer-region-dropdown {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  right: 0;
+  min-width: 148px;
+  background: var(--navy);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
+  z-index: 2100;
+  padding: 6px;
+}
+
+.footer-region-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.64);
+  background: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-region-option:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--white);
+}
+
+.footer-region-option.active {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.footer-region-flag {
+  font-size: 16px;
+  line-height: 1;
+}
+
+/* Backers */
 .footer-backers {
   display: flex;
   align-items: center;
@@ -314,6 +504,10 @@ export default {
   .footer-brand {
     grid-column: 1 / -1;
   }
+
+  .footer-bottom-inner {
+    gap: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -337,6 +531,15 @@ export default {
 
   .footer-backers {
     gap: 4px;
+  }
+
+  .footer-legal-links {
+    gap: 4px;
+  }
+
+  .footer-region-dropdown {
+    right: auto;
+    left: 0;
   }
 }
 </style>
