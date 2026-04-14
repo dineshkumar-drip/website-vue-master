@@ -1,0 +1,49 @@
+[build]
+  command = "npm run generate-only"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NUXT_DEFAULT_LOCALE = "en"
+
+# Legacy URL redirects (301) — must be BEFORE SPA fallback
+[[redirects]]
+  from = "/en-us/payable-finance"
+  to = "/en-us/vendor-financing"
+  status = 301
+
+[[redirects]]
+  from = "/en-us/importers"
+  to = "/en-us/receivables-financing"
+  status = 301
+
+[[redirects]]
+  from = "/en-us/importer-credit-program"
+  to = "/en-us/line-of-credit"
+  status = 301
+
+[[redirects]]
+  from = "/en-us/importers/apply"
+  to = "/en-us/apply"
+  status = 301
+
+[[redirects]]
+  from = "/en-us/exporters"
+  to = "/en-us/receivables-financing"
+  status = 301
+
+[[redirects]]
+  from = "/en-us/invest-in-trade-receivables"
+  to = "/en-us/investors"
+  status = 301
+
+[[redirects]]
+  from = "/en-us/leadership"
+  to = "/en-us/about"
+  status = 301
+
+# SPA fallback — serves 200.html for any route not found as a static file
+[[redirects]]
+  from = "/*"
+  to = "/200.html"
+  status = 200
