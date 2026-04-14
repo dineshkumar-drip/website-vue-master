@@ -1,0 +1,789 @@
+/* ============================================================
+   DRIP CAPITAL — SCOPED GLOBAL STYLESHEET (dc-new)
+   All rules scoped under .dc-new to avoid Bootstrap conflicts
+   ============================================================ */
+
+/* ============================================================
+   CSS Custom Properties — unscoped, no conflict risk
+   ============================================================ */
+:root {
+  --navy:    #0B1F3A;
+  --green:   #00C27C;
+  --green-d: #009960;
+  --white:   #FFFFFF;
+  --off:     #F5F7F6;
+  --off2:    #EEF2EF;
+  --border:  #DDE5DD;
+  --mid:     #6B7B6B;
+  --body:    #3D4F44;
+  --black:   #0C0F0D;
+
+  --nav-height: 64px;
+  --topbar-height: 36px;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 4px 24px rgba(11,31,58,0.10);
+  --shadow-lg: 0 12px 48px rgba(11,31,58,0.16);
+}
+
+/* ============================================================
+   Scoped Reset — only affects elements inside .dc-new
+   ============================================================ */
+.dc-new *,
+.dc-new *::before,
+.dc-new *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================
+   Base — scoped to .dc-new wrapper
+   ============================================================ */
+.dc-new {
+  font-family: 'Inter', sans-serif;
+  color: var(--black);
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+.dc-new img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.dc-new a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dc-new ul {
+  list-style: none;
+}
+
+/* ============================================================
+   Container — uses dc-container class (not Bootstrap's container)
+   ============================================================ */
+.dc-new .dc-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+/* ============================================================
+   Sections
+   ============================================================ */
+.dc-new .section {
+  padding: 88px 0;
+}
+
+.dc-new .section-sm {
+  padding: 48px 0;
+}
+
+.dc-new .section-bg {
+  background: var(--off);
+}
+
+.dc-new .section-bg2 {
+  background: var(--off2);
+}
+
+.dc-new .section-navy {
+  background: var(--navy);
+  color: var(--white);
+}
+
+/* ============================================================
+   Typography
+   ============================================================ */
+.dc-new .eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green);
+  margin-bottom: 12px;
+}
+
+.dc-new .section-title {
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 300;
+  color: var(--navy);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.dc-new .section-title strong,
+.dc-new .section-title b {
+  font-weight: 700;
+}
+
+.dc-new .section-title em {
+  font-style: italic;
+  color: var(--green);
+  font-weight: 400;
+}
+
+.dc-new .section-subtitle {
+  font-size: 18px;
+  color: var(--mid);
+  line-height: 1.7;
+  margin-top: 16px;
+  max-width: 560px;
+}
+
+/* ============================================================
+   Buttons — base dc-btn class
+   ============================================================ */
+.dc-new .dc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+/* Primary — both dc-btn-primary and btn-primary work */
+.dc-new .dc-btn-primary,
+.dc-new .btn-primary {
+  background: var(--green);
+  color: var(--white);
+  border-color: var(--green);
+}
+
+.dc-new .dc-btn-primary:hover,
+.dc-new .btn-primary:hover {
+  background: var(--green-d);
+  border-color: var(--green-d);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(0,194,124,0.3);
+}
+
+/* Secondary — both dc-btn-secondary and btn-secondary work */
+.dc-new .dc-btn-secondary,
+.dc-new .btn-secondary {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+}
+
+.dc-new .dc-btn-secondary:hover,
+.dc-new .btn-secondary:hover {
+  background: #162f58;
+  border-color: #162f58;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(11,31,58,0.3);
+}
+
+/* Outline — both dc-btn-outline and btn-outline work */
+.dc-new .dc-btn-outline,
+.dc-new .btn-outline {
+  background: transparent;
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.dc-new .dc-btn-outline:hover,
+.dc-new .btn-outline:hover {
+  background: var(--green);
+  color: var(--white);
+  transform: translateY(-1px);
+}
+
+/* Outline White — both dc-btn-outline-white and btn-outline-white work */
+.dc-new .dc-btn-outline-white,
+.dc-new .btn-outline-white {
+  background: transparent;
+  color: var(--white);
+  border-color: rgba(255,255,255,0.5);
+}
+
+.dc-new .dc-btn-outline-white:hover,
+.dc-new .btn-outline-white:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: var(--white);
+}
+
+/* Size modifiers — both dc-btn-lg/dc-btn-sm and btn-lg/btn-sm work */
+.dc-new .dc-btn-lg,
+.dc-new .btn-lg {
+  padding: 16px 32px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.dc-new .dc-btn-sm,
+.dc-new .btn-sm {
+  padding: 8px 16px;
+  font-size: 13px;
+}
+
+/* ============================================================
+   Cards
+   ============================================================ */
+.dc-new .card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.dc-new .card:hover {
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.dc-new .card-navy {
+  background: var(--navy);
+  color: var(--white);
+  border-color: transparent;
+}
+
+/* ============================================================
+   Grids
+   ============================================================ */
+.dc-new .grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.dc-new .grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.dc-new .grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* ============================================================
+   Scroll Reveal
+   ============================================================ */
+.dc-new .reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.dc-new .reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.dc-new .reveal-delay-1 { transition-delay: 0.1s; }
+.dc-new .reveal-delay-2 { transition-delay: 0.2s; }
+.dc-new .reveal-delay-3 { transition-delay: 0.3s; }
+.dc-new .reveal-delay-4 { transition-delay: 0.4s; }
+
+/* Fallback: if elements aren't observed within 3s, show them anyway */
+@keyframes reveal-fallback {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dc-new .reveal:not(.visible) {
+  animation: reveal-fallback 0s 3s forwards;
+}
+
+/* ============================================================
+   Tags / Pills
+   ============================================================ */
+.dc-new .pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  background: var(--off2);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--body);
+  gap: 6px;
+}
+
+.dc-new .pill-green {
+  background: rgba(0,194,124,0.1);
+  border-color: rgba(0,194,124,0.3);
+  color: var(--green-d);
+}
+
+/* ============================================================
+   Input Row
+   ============================================================ */
+.dc-new .input-row {
+  display: flex;
+  gap: 8px;
+  max-width: 420px;
+}
+
+.dc-new .input-row input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--black);
+  background: var(--white);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.dc-new .input-row input:focus {
+  border-color: var(--green);
+}
+
+.dc-new .input-row input::placeholder {
+  color: var(--mid);
+}
+
+/* ============================================================
+   Form Elements
+   ============================================================ */
+.dc-new .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.dc-new .form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--body);
+  letter-spacing: 0.02em;
+}
+
+.dc-new .form-group input,
+.dc-new .form-group textarea,
+.dc-new .form-group select {
+  padding: 12px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--black);
+  background: var(--white);
+  outline: none;
+  transition: border-color 0.2s;
+  width: 100%;
+}
+
+.dc-new .form-group input:focus,
+.dc-new .form-group textarea:focus,
+.dc-new .form-group select:focus {
+  border-color: var(--green);
+  box-shadow: 0 0 0 3px rgba(0,194,124,0.1);
+}
+
+.dc-new .form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* ============================================================
+   Divider
+   ============================================================ */
+.dc-new .divider {
+  width: 48px;
+  height: 3px;
+  background: var(--green);
+  border-radius: 2px;
+  margin: 16px 0;
+}
+
+/* ============================================================
+   Star Rating
+   ============================================================ */
+.dc-new .stars {
+  display: flex;
+  gap: 2px;
+  color: #F5A623;
+  font-size: 14px;
+}
+
+/* ============================================================
+   Page Hero
+   ============================================================ */
+.dc-new .page-hero {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  padding: 100px 0 80px;
+  color: var(--navy);
+  position: relative;
+  overflow: hidden;
+}
+
+.dc-new .page-hero::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(0,194,124,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.dc-new .page-hero .eyebrow {
+  color: var(--green);
+}
+
+.dc-new .page-hero h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 300;
+  color: var(--navy);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin: 12px 0 20px;
+  max-width: 680px;
+}
+
+.dc-new .page-hero h1 em {
+  font-style: italic;
+  color: var(--green);
+}
+
+.dc-new .page-hero h1 strong {
+  font-weight: 700;
+}
+
+.dc-new .page-hero p {
+  font-size: 18px;
+  color: var(--body);
+  max-width: 560px;
+  line-height: 1.7;
+}
+
+/* ============================================================
+   Accordion
+   ============================================================ */
+.dc-new .accordion-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.dc-new .accordion-trigger {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--navy);
+  text-align: left;
+  gap: 16px;
+}
+
+.dc-new .accordion-trigger:hover {
+  color: var(--green);
+}
+
+.dc-new .accordion-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--off2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+  transition: transform 0.3s ease, background 0.2s;
+}
+
+.dc-new .accordion-icon.open {
+  transform: rotate(45deg);
+  background: var(--green);
+  color: var(--white);
+}
+
+.dc-new .accordion-body {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s ease;
+}
+
+.dc-new .accordion-body.open {
+  max-height: 400px;
+}
+
+.dc-new .accordion-body p {
+  padding-bottom: 20px;
+  color: var(--body);
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* ============================================================
+   Step Indicators
+   ============================================================ */
+.dc-new .step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--green);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.dc-new .step-number-navy {
+  background: var(--navy);
+}
+
+/* ============================================================
+   Feature Icons
+   ============================================================ */
+.dc-new .feature-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(0,194,124,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+/* ============================================================
+   Comparison Table
+   ============================================================ */
+.dc-new .comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.dc-new .comparison-table th,
+.dc-new .comparison-table td {
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.dc-new .comparison-table th {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  padding: 20px;
+}
+
+.dc-new .comparison-table td:first-child,
+.dc-new .comparison-table th:first-child {
+  text-align: left;
+  font-weight: 500;
+}
+
+.dc-new .comparison-table .col-drip {
+  background: rgba(0,194,124,0.06);
+}
+
+.dc-new .comparison-table th.col-drip {
+  background: var(--navy);
+  color: var(--white);
+}
+
+.dc-new .comparison-table tr:last-child td {
+  border-bottom: none;
+}
+
+.dc-new .comparison-table tbody tr:hover td {
+  background: var(--off);
+}
+
+.dc-new .comparison-table tbody tr:hover td.col-drip {
+  background: rgba(0,194,124,0.1);
+}
+
+.dc-new .check-yes { color: var(--green); font-weight: 600; }
+.dc-new .check-no  { color: #C0392B; font-weight: 600; }
+.dc-new .check-mid { color: var(--mid); }
+
+.dc-new .comparison-wrapper {
+  overflow: hidden;
+  border-radius: var(--radius);
+}
+
+.dc-new .comparison-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ============================================================
+   Marquee
+   ============================================================ */
+.dc-new .marquee-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.dc-new .marquee-track {
+  display: flex;
+  gap: 56px;
+  width: max-content;
+  animation: marquee-scroll 28s linear infinite;
+}
+
+.dc-new .marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.dc-new .marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--mid);
+  white-space: nowrap;
+  transition: color 0.2s;
+}
+
+.dc-new .marquee-item:hover {
+  color: var(--navy);
+}
+
+/* ============================================================
+   Utility Classes
+   ============================================================ */
+.dc-new .text-green  { color: var(--green); }
+.dc-new .text-navy   { color: var(--navy); }
+.dc-new .text-mid    { color: var(--mid); }
+.dc-new .text-body   { color: var(--body); }
+.dc-new .text-white  { color: var(--white); }
+
+.dc-new .font-light      { font-weight: 300; }
+.dc-new .font-normal     { font-weight: 400; }
+.dc-new .font-medium     { font-weight: 500; }
+.dc-new .font-semibold   { font-weight: 600; }
+.dc-new .font-bold       { font-weight: 700; }
+.dc-new .font-extrabold  { font-weight: 800; }
+
+.dc-new .mt-4  { margin-top: 4px; }
+.dc-new .mt-8  { margin-top: 8px; }
+.dc-new .mt-12 { margin-top: 12px; }
+.dc-new .mt-16 { margin-top: 16px; }
+.dc-new .mt-24 { margin-top: 24px; }
+.dc-new .mt-32 { margin-top: 32px; }
+.dc-new .mt-40 { margin-top: 40px; }
+.dc-new .mt-48 { margin-top: 48px; }
+
+.dc-new .mb-8  { margin-bottom: 8px; }
+.dc-new .mb-12 { margin-bottom: 12px; }
+.dc-new .mb-16 { margin-bottom: 16px; }
+.dc-new .mb-24 { margin-bottom: 24px; }
+.dc-new .mb-32 { margin-bottom: 32px; }
+.dc-new .mb-48 { margin-bottom: 48px; }
+
+.dc-new .gap-8  { gap: 8px; }
+.dc-new .gap-12 { gap: 12px; }
+.dc-new .gap-16 { gap: 16px; }
+.dc-new .gap-24 { gap: 24px; }
+.dc-new .gap-32 { gap: 32px; }
+
+.dc-new .flex            { display: flex; }
+.dc-new .flex-col        { flex-direction: column; }
+.dc-new .items-center    { align-items: center; }
+.dc-new .items-start     { align-items: flex-start; }
+.dc-new .justify-between { justify-content: space-between; }
+.dc-new .justify-center  { justify-content: center; }
+.dc-new .flex-wrap       { flex-wrap: wrap; }
+
+.dc-new .w-full          { width: 100%; }
+.dc-new .relative        { position: relative; }
+.dc-new .overflow-hidden { overflow: hidden; }
+
+/* ============================================================
+   Responsive — all breakpoint rules scoped under .dc-new
+   ============================================================ */
+@media (max-width: 1024px) {
+  .dc-new .dc-container {
+    padding: 0 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dc-new .dc-container {
+    padding: 0 20px;
+  }
+
+  .dc-new .section {
+    padding: 56px 0;
+  }
+
+  .dc-new .section-sm {
+    padding: 32px 0;
+  }
+
+  .dc-new .grid-2,
+  .dc-new .grid-3,
+  .dc-new .grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .dc-new .section-title {
+    font-size: 28px;
+  }
+
+  .dc-new .section-subtitle {
+    font-size: 16px;
+  }
+
+  .dc-new .input-row {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .dc-new .page-hero {
+    padding: 72px 0 56px;
+  }
+
+  .dc-new .page-hero h1 {
+    font-size: 32px;
+  }
+
+  .dc-new .comparison-table {
+    font-size: 12px;
+  }
+
+  .dc-new .comparison-table th,
+  .dc-new .comparison-table td {
+    padding: 12px 10px;
+  }
+}

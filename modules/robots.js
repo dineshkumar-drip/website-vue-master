@@ -31,6 +31,34 @@ const getRobots = () => {
       Disallow: ['/']
     },
     {
+      UserAgent: 'GPTBot',
+      Allow: ['/']
+    },
+    {
+      UserAgent: 'ChatGPT-User',
+      Allow: ['/']
+    },
+    {
+      UserAgent: 'ClaudeBot',
+      Allow: ['/']
+    },
+    {
+      UserAgent: 'Anthropic-AI',
+      Allow: ['/']
+    },
+    {
+      UserAgent: 'PerplexityBot',
+      Allow: ['/']
+    },
+    {
+      UserAgent: 'Amazonbot',
+      Allow: ['/']
+    },
+    {
+      UserAgent: 'Google-Extended',
+      Allow: ['/']
+    },
+    {
       UserAgent: '*',
       Allow: [
         '/en-us/',
@@ -46,6 +74,8 @@ const getRobots = () => {
         '/search/',
         '/*/resources/newsroom/',
         '/*/resources/newsroom/*',
+        '/en-us/apply-thank-you',
+        '/en-us/partners/thank-you',
         '/fr-*',
         '/de-*',
         '/it-*',

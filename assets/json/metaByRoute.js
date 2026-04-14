@@ -56,6 +56,160 @@ module.exports = {
     ogTitle: 'Importer Credit Program and Supply Chain Finance',
     ogDescription: ''
   },
+  '/en-us/vendor-financing': {
+    title: 'Vendor Financing for US Businesses | Pay Vendors Now, Repay in 90 Days | Drip Capital',
+    description: 'Drip Capital Vendor Financing lets US businesses pay vendors immediately and repay on up to 90-day terms. No collateral, 24-hour approval.',
+    canonical: 'https://www.dripcapital.com/en-us/vendor-financing',
+    ogTitle: 'Vendor Financing | Drip Capital',
+    ogDescription: 'Pay your vendors now, repay in 90 days. Fast approval, no collateral required.'
+  },
+  '/en-us/receivables-financing': {
+    title: 'Receivables Financing | Get Paid on Invoices Today | Drip Capital',
+    description: 'Convert outstanding invoices into same-day cash. Drip Capital receivables financing funds invoices in 24-48 hours. No collateral, non-dilutive.',
+    canonical: 'https://www.dripcapital.com/en-us/receivables-financing',
+    ogTitle: 'Receivables Financing | Get Paid on Invoices Today | Drip Capital',
+    ogDescription: 'Convert outstanding invoices into same-day cash. Funds invoices in 24-48 hours. No collateral, non-dilutive.'
+  },
+  '/en-us/line-of-credit': {
+    title: 'Business Line of Credit | On-Demand Capital | Drip Capital',
+    description: 'Flexible revolving line of credit for US businesses. Draw what you need, repay, and draw again. 24-hour approval.',
+    canonical: 'https://www.dripcapital.com/en-us/line-of-credit',
+    ogTitle: 'Business Line of Credit | On-Demand Capital | Drip Capital',
+    ogDescription: 'Flexible revolving line of credit for US businesses. Draw what you need, repay, and draw again.'
+  },
+  '/en-us/about': {
+    title: 'About Drip Capital | Trade Finance Leader Since 2016',
+    description: 'Drip Capital has financed over $9 billion in trade transactions for 11,000+ businesses worldwide. Learn about our mission, leadership, and commitment to powering global trade.',
+    canonical: 'https://www.dripcapital.com/en-us/about',
+    ogTitle: 'About Drip Capital | Trade Finance Leader Since 2016',
+    ogDescription: 'Drip Capital has financed over $9 billion in trade transactions for 11,000+ businesses worldwide.'
+  },
+  '/en-us/contact': {
+    title: 'Contact Drip Capital | Get Working Capital Today',
+    description: 'Get in touch with Drip Capital. Apply for vendor financing, receivables financing, or a line of credit. Call +1 (650) 437-0150.',
+    canonical: 'https://www.dripcapital.com/en-us/contact',
+    ogTitle: 'Contact Drip Capital | Get Working Capital Today',
+    ogDescription: 'Get in touch with Drip Capital. Apply for vendor financing, receivables financing, or a line of credit.'
+  },
+  '/en-us/apply': {
+    title: 'Apply for Working Capital | Drip Capital',
+    description: 'Apply for working capital in minutes. Get a credit decision within 24 hours. No collateral required. Funding from $50K to $3M.',
+    canonical: 'https://www.dripcapital.com/en-us/apply',
+    ogTitle: 'Apply for Working Capital | Drip Capital',
+    ogDescription: 'Apply for working capital in minutes. Get a credit decision within 24 hours. No collateral required.'
+  },
+  '/en-us/investors': {
+    title: 'Our Investors | Drip Capital',
+    description: 'Drip Capital is backed by Barclays, IFC, SMBC, TD Bank, East West Bank, Y Combinator, Accel, and other leading financial institutions.',
+    canonical: 'https://www.dripcapital.com/en-us/investors',
+    ogTitle: 'Our Investors | Drip Capital',
+    ogDescription: 'Drip Capital is backed by Barclays, IFC, SMBC, TD Bank, East West Bank, Y Combinator, Accel, and other leading financial institutions.'
+  },
+  '/en-us/partners': {
+    title: 'Partner Program | Drip Capital',
+    description: 'Partner with Drip Capital to offer working capital solutions to your clients. Earn referral commissions while helping businesses grow.',
+    canonical: 'https://www.dripcapital.com/en-us/partners',
+    ogTitle: 'Partner Program | Drip Capital',
+    ogDescription: 'Partner with Drip Capital to offer working capital solutions to your clients.'
+  },
+  '/en-us/careers': {
+    title: 'Careers | Join Drip Capital',
+    description: 'Join the Drip Capital team. Build the future of trade finance. We are hiring engineers, analysts, and operators.',
+    canonical: 'https://www.dripcapital.com/en-us/careers',
+    ogTitle: 'Careers | Join Drip Capital',
+    ogDescription: 'Join the Drip Capital team. Build the future of trade finance.'
+  },
+  '/en-us/newsroom': {
+    title: 'Newsroom | Drip Capital',
+    description: 'Latest news, press releases, and media coverage about Drip Capital.',
+    canonical: 'https://www.dripcapital.com/en-us/newsroom',
+    ogTitle: 'Newsroom | Drip Capital',
+    ogDescription: 'Latest news, press releases, and media coverage about Drip Capital.'
+  },
+  '/en-us/blog': {
+    title: 'Blog | Trade Finance Insights | Drip Capital',
+    description: 'Expert insights on trade finance, working capital management, and business growth strategies from the Drip Capital team.',
+    canonical: 'https://www.dripcapital.com/en-us/blog',
+    ogTitle: 'Blog | Trade Finance Insights | Drip Capital',
+    ogDescription: 'Expert insights on trade finance, working capital management, and business growth strategies.'
+  },
+  '/en-us/finance-guides': {
+    title: 'Finance Guides | Drip Capital',
+    description: 'Free guides on vendor financing, receivables financing, and working capital management for US businesses.',
+    canonical: 'https://www.dripcapital.com/en-us/finance-guides',
+    ogTitle: 'Finance Guides | Drip Capital',
+    ogDescription: 'Free guides on vendor financing, receivables financing, and working capital management.'
+  },
+  '/en-us/use-cases': {
+    title: 'Case Studies | Drip Capital',
+    description: 'See how businesses across manufacturing, wholesale, seafood, and consumer goods have grown with Drip Capital working capital solutions.',
+    canonical: 'https://www.dripcapital.com/en-us/use-cases',
+    ogTitle: 'Case Studies | Drip Capital',
+    ogDescription: 'See how businesses have grown with Drip Capital working capital solutions.'
+  },
+  '/en-us/working-capital-calculator': {
+    title: 'Working Capital Calculator | Drip Capital',
+    description: 'Calculate your working capital needs and get a funding estimate in seconds. Flexible financing from $50K to $3M.',
+    canonical: 'https://www.dripcapital.com/en-us/working-capital-calculator',
+    ogTitle: 'Working Capital Calculator | Drip Capital',
+    ogDescription: 'Calculate your working capital needs and get a funding estimate in seconds.'
+  },
+  '/en-us/industry/manufacturing': {
+    title: 'Manufacturing Financing | Drip Capital',
+    description: 'Working capital for US manufacturers. Fund raw materials, pay vendors, and scale production with 24-hour approval.',
+    canonical: 'https://www.dripcapital.com/en-us/industry/manufacturing',
+    ogTitle: 'Manufacturing Financing | Drip Capital',
+    ogDescription: 'Working capital for US manufacturers. Fund raw materials, pay vendors, and scale production.'
+  },
+  '/en-us/industry/wholesale': {
+    title: 'Wholesale Financing | Drip Capital',
+    description: 'Working capital for US wholesale distributors. Pay vendors upfront, manage inventory, and grow your distribution business.',
+    canonical: 'https://www.dripcapital.com/en-us/industry/wholesale',
+    ogTitle: 'Wholesale Financing | Drip Capital',
+    ogDescription: 'Working capital for US wholesale distributors.'
+  },
+  '/en-us/industry/seafood': {
+    title: 'Seafood Industry Financing | Drip Capital',
+    description: 'Working capital for seafood importers and distributors. Finance vendor payments, manage seasonal demand, and grow your trade volume.',
+    canonical: 'https://www.dripcapital.com/en-us/industry/seafood',
+    ogTitle: 'Seafood Industry Financing | Drip Capital',
+    ogDescription: 'Working capital for seafood importers and distributors.'
+  },
+  '/en-us/industry/consumer-goods': {
+    title: 'Consumer Goods Financing | Drip Capital',
+    description: 'Working capital for US consumer goods companies. Fund inventory purchases, pay vendors, and accelerate growth.',
+    canonical: 'https://www.dripcapital.com/en-us/industry/consumer-goods',
+    ogTitle: 'Consumer Goods Financing | Drip Capital',
+    ogDescription: 'Working capital for US consumer goods companies.'
+  },
+  '/en-us/industry/agri-food': {
+    title: 'Agri-Food Financing | Drip Capital',
+    description: 'Working capital for agri-food importers and exporters. Finance trade transactions, pay vendors, and manage seasonal cash flow.',
+    canonical: 'https://www.dripcapital.com/en-us/industry/agri-food',
+    ogTitle: 'Agri-Food Financing | Drip Capital',
+    ogDescription: 'Working capital for agri-food importers and exporters.'
+  },
+  '/en-us/privacy-policy': {
+    title: 'Privacy Policy | Drip Capital',
+    description: 'Drip Capital privacy policy. Learn how we collect, use, and protect your personal information.',
+    canonical: 'https://www.dripcapital.com/en-us/privacy-policy',
+    ogTitle: 'Privacy Policy | Drip Capital',
+    ogDescription: 'Drip Capital privacy policy.'
+  },
+  '/en-us/terms-of-use': {
+    title: 'Terms of Use | Drip Capital',
+    description: 'Drip Capital terms of use. Read our terms and conditions for using our website and services.',
+    canonical: 'https://www.dripcapital.com/en-us/terms-of-use',
+    ogTitle: 'Terms of Use | Drip Capital',
+    ogDescription: 'Drip Capital terms of use.'
+  },
+  '/en-us/security': {
+    title: 'Security | Drip Capital',
+    description: 'Drip Capital security practices. SOC 2 certified, 256-bit encryption, and enterprise-grade security.',
+    canonical: 'https://www.dripcapital.com/en-us/security',
+    ogTitle: 'Security | Drip Capital',
+    ogDescription: 'Drip Capital security practices. SOC 2 certified, 256-bit encryption.'
+  },
   '/en-us': {
     title: 'Trade Finance Simplified | Drip Capital',
     description:

@@ -1,6 +1,14 @@
 <template>
   <div>
-    <importers v-if="showImporters" />
+    <!-- New en-us redesigned homepage -->
+    <div v-if="isUsRedesign" class="dc-new">
+      <redesign-app-top-bar />
+      <redesign-app-nav />
+      <redesign-home-page />
+      <redesign-app-footer />
+    </div>
+    <!-- Existing en/en-us importers page -->
+    <importers v-else-if="showImporters" />
     <exporters v-else-if="showMexicoExporters" />
     <home-page v-else />
   </div>
@@ -20,6 +28,32 @@ export default {
     }
   },
   head() {
+    if (this.isUsRedesign) {
+      return {
+        title: 'Drip Capital: Working Capital for Growing Businesses',
+        meta: [
+          { hid: 'description', name: 'description', content: 'Drip Capital provides fast, flexible working capital for US businesses. Vendor financing, receivables financing, and lines of credit with 24-hour approval.' },
+          { hid: 'og:title', property: 'og:title', content: 'Drip Capital: Working Capital for Growing Businesses' },
+          { hid: 'og:description', property: 'og:description', content: 'Fast, flexible working capital for US businesses. 24-hour approval, no collateral required.' }
+        ],
+        link: [
+          { rel: 'canonical', href: 'https://www.dripcapital.com/en-us/' },
+          ...this.hreflangs
+        ],
+        script: this.ldJsonSchema
+          ? [
+              {
+                hid: 'ldjson-schema-index',
+                innerHTML: JSON.stringify(this.ldJsonSchema),
+                type: 'application/ld+json'
+              }
+            ]
+          : [],
+        __dangerouslyDisableSanitizersByTagID: {
+          'ldjson-schema-index': ['innerHTML']
+        }
+      }
+    }
     return {
       needLineBreak: true,
       title: `${this.title} | Drip Capital`,
@@ -42,8 +76,11 @@ export default {
     }
   },
   computed: {
+    isUsRedesign() {
+      return this.$i18n.locale === 'en-us'
+    },
     showImporters() {
-      return this.$i18n.locale === 'en-us' || this.$i18n.locale === 'en'
+      return this.$i18n.locale === 'en'
     },
     showMexicoExporters() {
       return this.$i18n.locale === 'es-mx'

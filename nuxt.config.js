@@ -53,6 +53,10 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'
       }
     ],
     noscript: [{ innerHTML: 'This website requires JavaScript.' }]
@@ -93,7 +97,8 @@ export default {
   css: [
     '@fortawesome/fontawesome/styles.css',
     '@/assets/scss/main.scss',
-    'aos/dist/aos.css'
+    'aos/dist/aos.css',
+    '@/assets/css/dc-new.css'
   ],
   /*
    ** Build configuration
@@ -298,7 +303,7 @@ export default {
         }
       }
     : {
-        middleware: 'referrer'
+        middleware: ['referrer', 'redirects']
       },
   robots: robots
 }
