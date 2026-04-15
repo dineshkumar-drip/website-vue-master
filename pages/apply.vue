@@ -804,8 +804,10 @@ export default {
             locale: 'en-us'
           }
 
+          console.log('[apply] Submitting form data:', body)
           // Fire Zapier webhook via Drip API
           const apiUrl = process.env.apiUrl
+          console.log('[apply] apiUrl:', apiUrl)
           if (apiUrl) {
             const tokenRes = await this.$axios({ url: apiUrl + '/v1/access/token' })
             const publicToken = 'Token ' + tokenRes.data.token
@@ -818,13 +820,15 @@ export default {
                 zap_payload: JSON.stringify(body)
               }
             })
+            console.log('[apply] Zapier webhook sent via API ✓')
           } else {
             // Fallback: direct Zapier webhook
-            await fetch('https://hooks.zapier.com/hooks/catch/2434182/23emz9u/', {
+            const res = await fetch('https://hooks.zapier.com/hooks/catch/2434182/23emz9u/', {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify(body)
             })
+            console.log('[apply] Zapier webhook sent directly ✓', res.status)
           }
         } catch (err) {
           console.error('[apply] Zapier webhook error:', err)

@@ -304,7 +304,9 @@ export default {
           source: 'website_contact_us',
           locale: this.$i18n.locale
         }
+        console.log('[contact] Submitting form data:', body)
         const apiUrl = process.env.apiUrl
+        console.log('[contact] apiUrl:', apiUrl)
         if (apiUrl) {
           const tokenRes = await this.$axios({ url: apiUrl + '/v1/access/token' })
           const publicToken = 'Token ' + tokenRes.data.token
@@ -317,12 +319,15 @@ export default {
               zap_payload: JSON.stringify(body)
             }
           })
+          console.log('[contact] Zapier webhook sent via API ✓')
         } else {
-          await fetch('https://hooks.zapier.com/hooks/catch/2434182/23emz9u/', {
+          // Fallback: direct Zapier webhook
+          const res = await fetch('https://hooks.zapier.com/hooks/catch/2434182/23emz9u/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body)
           })
+          console.log('[contact] Zapier webhook sent directly ✓', res.status)
         }
       } catch (err) {
         console.error('[contact] Zapier webhook error:', err)
