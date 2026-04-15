@@ -290,7 +290,43 @@ export default {
     onTypedChar(typedChar, typedCharIndex) {
       typerHelper(typedChar, typedCharIndex, this)
     },
-    submitDcForm() {
+    async submitDcForm() {
+      try {
+        const body = {
+          first_name: this.dcForm.firstName,
+          last_name: this.dcForm.lastName,
+          email: this.dcForm.email,
+          phone: this.dcForm.phone,
+          company_name: this.dcForm.company,
+          annual_revenue: this.dcForm.revenue,
+          product_interested: this.dcForm.product,
+          message: this.dcForm.message,
+          source: 'website_contact_us',
+          locale: this.$i18n.locale
+        }
+        const apiUrl = process.env.apiUrl
+        if (apiUrl) {
+          const tokenRes = await this.$axios({ url: apiUrl + '/v1/access/token' })
+          const publicToken = 'Token ' + tokenRes.data.token
+          await this.$axios({
+            url: apiUrl + '/v2/business/webhooks/zapier',
+            method: 'post',
+            headers: { Authorization: publicToken },
+            data: {
+              zap_name: 'SCF_WS_TO_FS_CAMPAIGN_SEM_PAGE',
+              zap_payload: JSON.stringify(body)
+            }
+          })
+        } else {
+          await fetch('https://hooks.zapier.com/hooks/catch/2434182/23emz9u/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+          })
+        }
+      } catch (err) {
+        console.error('[contact] Zapier webhook error:', err)
+      }
       this.dcSubmitted = true
       Object.assign(this.dcForm, {
         firstName: '', lastName: '', email: '', phone: '',

@@ -295,7 +295,40 @@ export default {
     onTypedChar(typedChar, typedCharIndex) {
       typerHelper(typedChar, typedCharIndex, this)
     },
-    submitPartnerForm() {
+    async submitPartnerForm() {
+      try {
+        const body = {
+          full_name: this.form.name,
+          company_name: this.form.company,
+          email: this.form.email,
+          partner_type: this.form.type,
+          message: this.form.message,
+          source: 'website_partner_application',
+          locale: this.$i18n.locale
+        }
+        const apiUrl = process.env.apiUrl
+        if (apiUrl) {
+          const tokenRes = await this.$axios({ url: apiUrl + '/v1/access/token' })
+          const publicToken = 'Token ' + tokenRes.data.token
+          await this.$axios({
+            url: apiUrl + '/v2/business/webhooks/zapier',
+            method: 'post',
+            headers: { Authorization: publicToken },
+            data: {
+              zap_name: 'SCF_WS_TO_FS_PAID_ORGANIC',
+              zap_payload: JSON.stringify(body)
+            }
+          })
+        } else {
+          await fetch('https://hooks.zapier.com/hooks/catch/2434182/23emz9u/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+          })
+        }
+      } catch (err) {
+        console.error('[partners] Zapier webhook error:', err)
+      }
       alert('Thank you for your interest in partnering with Drip Capital! Our team will be in touch within 2 business days.')
       Object.assign(this.form, { name: '', company: '', email: '', type: '', message: '' })
     }

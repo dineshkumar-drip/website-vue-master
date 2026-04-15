@@ -779,8 +779,57 @@ export default {
       window.scrollTo({ top: 0, behavior: 'smooth' })
     },
 
-    submitForm() {
+    async submitForm() {
       if (this.validateStep(3)) {
+        try {
+          const body = {
+            name: this.formData.firstName + ' ' + this.formData.lastName,
+            first_name: this.formData.firstName,
+            last_name: this.formData.lastName,
+            email: this.formData.email,
+            phone: this.formData.phone,
+            job_title: this.formData.jobTitle,
+            company: this.formData.companyName,
+            website: this.formData.website,
+            revenue: this.formData.annualRevenue,
+            years_in_business: this.formData.yearsInBusiness,
+            product: this.formData.productNeeded,
+            amount_needed: this.formData.amountNeeded,
+            primary_use: this.formData.primaryUse,
+            hear_about_us: this.formData.hearAboutUs,
+            additional_context: this.formData.additionalContext,
+            contact_method: this.formData.contactMethod,
+            best_time: this.formData.bestTime,
+            source: 'en-us-apply-page',
+            locale: 'en-us'
+          }
+
+          // Fire Zapier webhook via Drip API
+          const apiUrl = process.env.apiUrl
+          if (apiUrl) {
+            const tokenRes = await this.$axios({ url: apiUrl + '/v1/access/token' })
+            const publicToken = 'Token ' + tokenRes.data.token
+            await this.$axios({
+              url: apiUrl + '/v2/business/webhooks/zapier',
+              method: 'post',
+              headers: { Authorization: publicToken },
+              data: {
+                zap_name: 'SCF_WS_TO_FS_PAID_ORGANIC',
+                zap_payload: JSON.stringify(body)
+              }
+            })
+          } else {
+            // Fallback: direct Zapier webhook
+            await fetch('https://hooks.zapier.com/hooks/catch/2434182/23emz9u/', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(body)
+            })
+          }
+        } catch (err) {
+          console.error('[apply] Zapier webhook error:', err)
+        }
+
         this.submitted = true
         window.scrollTo({ top: 0, behavior: 'smooth' })
       }
