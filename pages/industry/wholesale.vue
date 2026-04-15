@@ -76,8 +76,8 @@
           <div class="testimonial-person">
             <div class="testimonial-avatar">JP</div>
             <div>
-              <div class="testimonial-name">Jennifer Park</div>
-              <div class="testimonial-role">CFO, Pacific Wholesale Distributors, Los Angeles, CA</div>
+              <div class="testimonial-name">Jennifer P.</div>
+              <div class="testimonial-role">CFO, Wholesale Distribution</div>
             </div>
           </div>
         </div>

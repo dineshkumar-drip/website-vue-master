@@ -71,13 +71,13 @@
         <div class="testimonial-featured reveal">
           <div class="stars">★★★★★</div>
           <p class="testimonial-featured-quote">
-            "Landing a Target order was a dream come true but it meant producing 10x our normal volume. Drip Capital's Vendor Financing allowed us to pay our overseas manufacturers while we waited for Target's net-90 payment. Without Drip, we would have had to turn down the order."
+            "Landing a major retailer order was a dream come true but it meant producing 10x our normal volume. Drip Capital's Vendor Financing allowed us to pay our overseas manufacturers while we waited for the retailer's net-90 payment. Without Drip, we would have had to turn down the order."
           </p>
           <div class="testimonial-person">
             <div class="testimonial-avatar">TL</div>
             <div>
-              <div class="testimonial-name">Tanya Lewis</div>
-              <div class="testimonial-role">Founder, NaturalCare Brands, Austin, TX</div>
+              <div class="testimonial-name">Tanya L.</div>
+              <div class="testimonial-role">Founder, Consumer Goods</div>
             </div>
           </div>
         </div>

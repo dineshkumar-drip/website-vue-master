@@ -86,8 +86,8 @@
           <div class="testimonial-person">
             <div class="testimonial-avatar">AS</div>
             <div>
-              <div class="testimonial-name">Amir Singh</div>
-              <div class="testimonial-role">Owner, Apex Manufacturing LLC, Phoenix, AZ</div>
+              <div class="testimonial-name">Amir S.</div>
+              <div class="testimonial-role">Owner, Manufacturing</div>
             </div>
           </div>
         </div>

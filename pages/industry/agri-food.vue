@@ -76,8 +76,8 @@
           <div class="testimonial-person">
             <div class="testimonial-avatar">RK</div>
             <div>
-              <div class="testimonial-name">Robert Kowalski</div>
-              <div class="testimonial-role">CEO, Midwest Grain Trading Co., Des Moines, IA</div>
+              <div class="testimonial-name">Robert K.</div>
+              <div class="testimonial-role">CEO, Agri-Food Trading</div>
             </div>
           </div>
         </div>

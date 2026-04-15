@@ -76,8 +76,8 @@
           <div class="testimonial-person">
             <div class="testimonial-avatar">MR</div>
             <div>
-              <div class="testimonial-name">Marcus Rodriguez</div>
-              <div class="testimonial-role">CEO, SunCoast Seafood Imports, Miami, FL</div>
+              <div class="testimonial-name">Marcus R.</div>
+              <div class="testimonial-role">CEO, Seafood Importing</div>
             </div>
           </div>
         </div>
