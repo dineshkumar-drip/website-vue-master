@@ -156,16 +156,32 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="businessState">Business State <span class="req" aria-hidden="true">*</span></label>
+                    <label for="businessCountry">Business Country <span class="req" aria-hidden="true">*</span></label>
                     <select
-                      id="businessState"
-                      v-model="formData.businessState"
-                      :class="{ 'input-error': errors.businessState }"
+                      id="businessCountry"
+                      v-model="formData.businessCountry"
+                      :class="{ 'input-error': errors.businessCountry }"
                     >
-                      <option value="">Select your state</option>
-                      <option v-for="state in usStates" :key="state.abbr" :value="state.abbr">{{ state.name }}</option>
+                      <option value="">Select your country</option>
+                      <option value="US">United States</option>
+                      <option value="CA">Canada</option>
+                      <option value="MX">Mexico</option>
+                      <option value="GB">United Kingdom</option>
+                      <option value="IN">India</option>
+                      <option value="CN">China</option>
+                      <option value="DE">Germany</option>
+                      <option value="JP">Japan</option>
+                      <option value="KR">South Korea</option>
+                      <option value="AU">Australia</option>
+                      <option value="BR">Brazil</option>
+                      <option value="FR">France</option>
+                      <option value="IT">Italy</option>
+                      <option value="NL">Netherlands</option>
+                      <option value="SG">Singapore</option>
+                      <option value="AE">United Arab Emirates</option>
+                      <option value="OTHER">Other</option>
                     </select>
-                    <span v-if="errors.businessState" class="field-error" role="alert">{{ errors.businessState }}</span>
+                    <span v-if="errors.businessCountry" class="field-error" role="alert">{{ errors.businessCountry }}</span>
                   </div>
 
                   <div class="form-group form-group-full">
@@ -210,7 +226,20 @@
                           v-model="formData.productNeeded"
                           class="sr-only"
                         />
-                        <div class="product-card-icon" aria-hidden="true">{{ product.icon }}</div>
+                        <div class="product-card-icon" aria-hidden="true">
+                          <!-- Vendor Financing: house/building -->
+                          <svg v-if="product.iconType === 'vendor'" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+                          </svg>
+                          <!-- Receivables Financing: credit card / invoice -->
+                          <svg v-else-if="product.iconType === 'receivables'" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/>
+                          </svg>
+                          <!-- Line of Credit: refresh/cycle -->
+                          <svg v-else-if="product.iconType === 'credit'" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                          </svg>
+                        </div>
                         <div class="product-card-body">
                           <strong class="product-card-title">{{ product.label }}</strong>
                           <span class="product-card-desc">{{ product.desc }}</span>
@@ -615,7 +644,7 @@ export default {
         industry: '',
         yearsInBusiness: '',
         annualRevenue: '',
-        businessState: '',
+        businessCountry: 'US',
         businessType: '',
         // Step 2
         productNeeded: '',
@@ -642,19 +671,19 @@ export default {
         {
           value: 'vendor-financing',
           label: 'Vendor Financing',
-          icon: '🏭',
+          iconType: 'vendor',
           desc: 'Pay vendors, extend your cash runway'
         },
         {
           value: 'receivables-financing',
           label: 'Receivables Financing',
-          icon: '📄',
+          iconType: 'receivables',
           desc: 'Turn invoices into same-day cash'
         },
         {
           value: 'line-of-credit',
           label: 'Line of Credit',
-          icon: '💳',
+          iconType: 'credit',
           desc: 'Flexible draw-down for any business need'
         }
       ],
@@ -693,24 +722,13 @@ export default {
         }
       ],
 
-      usStates: [
-        { abbr: 'AL', name: 'Alabama' }, { abbr: 'AK', name: 'Alaska' }, { abbr: 'AZ', name: 'Arizona' },
-        { abbr: 'AR', name: 'Arkansas' }, { abbr: 'CA', name: 'California' }, { abbr: 'CO', name: 'Colorado' },
-        { abbr: 'CT', name: 'Connecticut' }, { abbr: 'DE', name: 'Delaware' }, { abbr: 'FL', name: 'Florida' },
-        { abbr: 'GA', name: 'Georgia' }, { abbr: 'HI', name: 'Hawaii' }, { abbr: 'ID', name: 'Idaho' },
-        { abbr: 'IL', name: 'Illinois' }, { abbr: 'IN', name: 'Indiana' }, { abbr: 'IA', name: 'Iowa' },
-        { abbr: 'KS', name: 'Kansas' }, { abbr: 'KY', name: 'Kentucky' }, { abbr: 'LA', name: 'Louisiana' },
-        { abbr: 'ME', name: 'Maine' }, { abbr: 'MD', name: 'Maryland' }, { abbr: 'MA', name: 'Massachusetts' },
-        { abbr: 'MI', name: 'Michigan' }, { abbr: 'MN', name: 'Minnesota' }, { abbr: 'MS', name: 'Mississippi' },
-        { abbr: 'MO', name: 'Missouri' }, { abbr: 'MT', name: 'Montana' }, { abbr: 'NE', name: 'Nebraska' },
-        { abbr: 'NV', name: 'Nevada' }, { abbr: 'NH', name: 'New Hampshire' }, { abbr: 'NJ', name: 'New Jersey' },
-        { abbr: 'NM', name: 'New Mexico' }, { abbr: 'NY', name: 'New York' }, { abbr: 'NC', name: 'North Carolina' },
-        { abbr: 'ND', name: 'North Dakota' }, { abbr: 'OH', name: 'Ohio' }, { abbr: 'OK', name: 'Oklahoma' },
-        { abbr: 'OR', name: 'Oregon' }, { abbr: 'PA', name: 'Pennsylvania' }, { abbr: 'RI', name: 'Rhode Island' },
-        { abbr: 'SC', name: 'South Carolina' }, { abbr: 'SD', name: 'South Dakota' }, { abbr: 'TN', name: 'Tennessee' },
-        { abbr: 'TX', name: 'Texas' }, { abbr: 'UT', name: 'Utah' }, { abbr: 'VT', name: 'Vermont' },
-        { abbr: 'VA', name: 'Virginia' }, { abbr: 'WA', name: 'Washington' }, { abbr: 'WV', name: 'West Virginia' },
-        { abbr: 'WI', name: 'Wisconsin' }, { abbr: 'WY', name: 'Wyoming' }
+      countries: [
+        { code: 'US', name: 'United States' }, { code: 'CA', name: 'Canada' }, { code: 'MX', name: 'Mexico' },
+        { code: 'GB', name: 'United Kingdom' }, { code: 'IN', name: 'India' }, { code: 'CN', name: 'China' },
+        { code: 'DE', name: 'Germany' }, { code: 'JP', name: 'Japan' }, { code: 'KR', name: 'South Korea' },
+        { code: 'AU', name: 'Australia' }, { code: 'BR', name: 'Brazil' }, { code: 'FR', name: 'France' },
+        { code: 'IT', name: 'Italy' }, { code: 'NL', name: 'Netherlands' }, { code: 'SG', name: 'Singapore' },
+        { code: 'AE', name: 'United Arab Emirates' }, { code: 'OTHER', name: 'Other' }
       ]
     }
   },
@@ -738,7 +756,7 @@ export default {
         if (!this.formData.industry) { errors.industry = 'Please select your industry.'; valid = false }
         if (!this.formData.yearsInBusiness) { errors.yearsInBusiness = 'Please select years in business.'; valid = false }
         if (!this.formData.annualRevenue) { errors.annualRevenue = 'Please select your annual revenue range.'; valid = false }
-        if (!this.formData.businessState) { errors.businessState = 'Please select your state.'; valid = false }
+        if (!this.formData.businessCountry) { errors.businessCountry = 'Please select your country.'; valid = false }
         if (!this.formData.businessType) { errors.businessType = 'Please select your business type.'; valid = false }
       }
 
@@ -790,6 +808,11 @@ export default {
             phone: this.formData.phone,
             job_title: this.formData.jobTitle,
             company: this.formData.companyName,
+            business_name: this.formData.businessName,
+            dba_name: this.formData.dbaName,
+            industry: this.formData.industry,
+            business_country: this.formData.businessCountry,
+            business_type: this.formData.businessType,
             website: this.formData.website,
             revenue: this.formData.annualRevenue,
             years_in_business: this.formData.yearsInBusiness,
@@ -1068,7 +1091,14 @@ export default {
 }
 
 .product-card-icon {
-  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(0,194,124,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .product-card-body {
