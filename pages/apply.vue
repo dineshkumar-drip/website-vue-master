@@ -1,5 +1,7 @@
 <template>
   <div class="dc-new apply-page">
+    <RedesignAppTopBar />
+    <RedesignAppNav />
 
     <!-- ========== HERO ========== -->
     <section class="page-hero">

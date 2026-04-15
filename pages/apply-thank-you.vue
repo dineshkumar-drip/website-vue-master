@@ -1,5 +1,7 @@
 <template>
   <div class="dc-new">
+    <RedesignAppTopBar />
+    <RedesignAppNav />
     <section class="page-hero" style="min-height: 60vh; display: flex; align-items: center;">
       <div class="dc-container" style="text-align: center;">
         <div style="width: 64px; height: 64px; border-radius: 50%; background: rgba(0,194,124,0.12); display: flex; align-items: center; justify-content: center; margin: 0 auto 24px;">
@@ -10,6 +12,7 @@
         <NuxtLink to="/en-us/" class="dc-btn btn-primary btn-lg">Back to Home</NuxtLink>
       </div>
     </section>
+    <RedesignAppFooter />
   </div>
 </template>
 
